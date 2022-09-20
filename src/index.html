@@ -3,14 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Meta description -->
     <meta
       name="description"
-      content="Omnifood is an AI-powered food subscription that will make you eat heathy again 365 days per year. It's tailored to your personal tastes and nutritional needs."
+      content=""
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
     <link rel="stylesheet" href="./assets/CSS/general.css" />
     <link rel="stylesheet" href="./assets/CSS/style.css" />
     <link rel="stylesheet" href="./assets/CSS/queries.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
     <link
       rel="icon"
       type="image/x-icon"
@@ -20,12 +27,43 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header>
+    <header class="header flex--centered-vertically">
+      <!-- Header Navigation -->
+      <nav class="header-nav flex--centered-vertically">
+      <!-- logo link -->
+        <a href="#" class="header-link header-link--home"><img
+          src="./assets/content/images/logo 1.png"
+          alt="Khnami Logo"
+          class="header-logo-img"
+        /></a>
+        <a href="#" class="header-link header-link--our-services">Our Services</a>
+        <a href="#" class="header-link header-link--gallery">Gallery</a>
+        <a href="#" class="header-link header-link--pricing">Pricing</a>
+        <a href="#" class="header-link header-link--cta">Cta</a>
+      </nav>
+      <div class="header-contact">
+      <div class="header-contact-container flex--centered-vertically">
+        <address class="header-adress">
+          <p class="adress">Address: Gusan Sherami 2, Yerevan, Armenia</p>
+          <p class="number">Phone: +374 93 577539</p>
+        </address>
+      </div>  
+      </div>
     </header>
     <!-- MAIN -->
     <main>
       <!-- HERO SECTION -->
       <section class="section-hero">
+        <div class="hero container grid grid--2-cols centered--vertically">
+          <!-- hero text -->
+          <div class="hero-text-box">
+            <!-- hero headline -->
+            <h1 class="heading-primary">Palliative care with dignity and kindness</h1>
+            <!-- hero description -->
+            <p class="hero-description">The Khnami Center provides palliative care to the elderly and adult population of Yerevan and the surrounding regions.</p>
+            <!-- hero cta -->
+          </div>
+        </div>
       </section>
       <!-- PRICING SECTION -->
       <section class="section-pricing">
