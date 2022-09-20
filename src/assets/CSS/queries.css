@@ -1,0 +1,33 @@
+/* 1rem = 1em = 16px */
+
+/* Below 1344px (smaller computers) */
+@media (max-width: 84em) {
+}
+
+/* Below 1200px (Landscape Tablets) */
+@media (max-width: 75em) {
+  html {
+    /* 56.25% -> 1rem = 9px */
+    font-size: 56.25%;
+  }
+}
+
+/* Below 944px (Tablets) */
+@media (max-width: 59em) {
+  html {
+    /* 50% -> 1rem = 8px */
+    font-size: 50%;
+  }
+}
+
+/* Below 704px (Smaller Tablets) */
+@media (max-width: 44em) {
+}
+
+/* Below 544px (Phones) */
+@media (max-width: 34em) {
+  html {
+    /* 43.75% -> 1rem = 7px */
+    font-size: 43.75%;
+  }
+}

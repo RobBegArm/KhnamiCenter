@@ -1,0 +1,154 @@
+/* 
+
+--- 01 TYPOGRAPHY 
+
+- Font Sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font Weights
+Default: 400
+Medium: 500
+Semi-Bold: 600
+Bold: 700
+
+- Line Heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+
+- Primary Color: 
+
+- Tints: 
+- Shades: 
+- Accents:
+- Greys:
+
+
+
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+Default: 9px
+Medium: 11px
+
+--- 07 WHITESPACE
+
+- Spacing System (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+/*Global Defaults*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(231, 126, 35, 0.5) !important;
+}
+
+html {
+  /* def font-size:16px
+    62.5% -> 1rem = 10px */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Utility Classes */
+
+/* HEADINGS */
+
+/* BUTTONS */
+
+/* LINKS */
+
+/* LISTS */
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+/* GRIDS */
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 4.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* CONTAINERS */
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.centered--vertically {
+  align-items: center;
+}
+
+.flex--centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex--centered-vertically {
+  display: flex;
+  align-items: center;
+}
+
+/* TEXT */
+
+.center-text {
+  text-align: center;
+}
+
+/* PADDINGS/MARGINS */
+
+/* SHADOWS */
+
+.shadow {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
+.shadow--dark {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+}
