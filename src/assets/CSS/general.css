@@ -154,18 +154,10 @@ body {
 
 /* CONTAINERS */
 
-.container,
-.container--large {
+.container {
   margin: 0 auto;
   padding: 0 3.2rem;
-}
-
-.container {
-  max-width: 120rem;
-}
-
-.container--large {
-  max-width: 130rem !important;
+  max-width: 130rem;
 }
 
 .centered--vertically {

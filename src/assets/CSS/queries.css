@@ -1,33 +1,50 @@
 /* 1rem = 1em = 16px */
 
+/* Below 1504px (narrow computers) */
+@media (max-width: 94em) {
+  .header-address-text {
+    max-width: 26rem;
+  }
+}
+
 /* Below 1344px (smaller computers) */
 @media (max-width: 84em) {
+  .header {
+    height: 16.8rem;
+    font-size: 2.4rem;
+  }
+
+  .container {
+    max-width: 110rem !important;
+  }
+
+  .header-address-text {
+    max-width: 21rem;
+  }
+
+  .heading-primary {
+    font-size: 6.2rem;
+  }
+
+  .hero-text-box {
+    row-gap: 0rem;
+  }
+
+  .hero-description {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .hero-cta-btn {
+    font-size: 2.4rem;
+    padding: 2rem 4rem !important;
+  }
 }
 
-/* Below 1200px (Landscape Tablets) */
+/* Below 1200px (Landscape Tablets)
 @media (max-width: 75em) {
   html {
-    /* 56.25% -> 1rem = 9px */
+    /* 56.25% -> 1rem = 9px 
     font-size: 56.25%;
   }
-}
-
-/* Below 944px (Tablets) */
-@media (max-width: 59em) {
-  html {
-    /* 50% -> 1rem = 8px */
-    font-size: 50%;
-  }
-}
-
-/* Below 704px (Smaller Tablets) */
-@media (max-width: 44em) {
-}
-
-/* Below 544px (Phones) */
-@media (max-width: 34em) {
-  html {
-    /* 43.75% -> 1rem = 7px */
-    font-size: 43.75%;
-  }
-}
+} */

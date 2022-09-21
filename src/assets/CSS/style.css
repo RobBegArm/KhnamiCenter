@@ -36,6 +36,10 @@
   margin-left: auto;
 }
 
+.header-address-text {
+  text-align: right;
+}
+
 .header-icon {
   display: inline-block;
   color: #1f8f91;
@@ -87,6 +91,26 @@
 .hero-cta-btn:hover,
 .hero-cta-btn:active {
   background-color: #1f8f91;
+}
+
+/* Cooperations Section */
+
+.cooperations {
+  padding: 2.4rem 0 9.6rem 0 !important;
+}
+
+.cooperations p {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2rem 0 3rem 0;
+}
+
+.coop-logo-box {
+  justify-content: space-evenly;
+}
+
+.coop-logo-img {
+  height: 10rem;
 }
 
 /* cta section */
