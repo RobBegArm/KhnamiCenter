@@ -23,10 +23,10 @@ Paragraph default: 1.6
 
 --- 02 COLORS
 
-- Primary Color: 
+- Primary Color: #229fa1
 
-- Tints: 
-- Shades: 
+- Tints: #ecf4f5
+- Shades: #1f8f91, #145f61, #1b7f81
 - Accents:
 - Greys:
 
@@ -57,7 +57,7 @@ Medium: 11px
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(231, 126, 35, 0.5) !important;
+  box-shadow: 0 0 0 0.8rem rgba(34, 159, 161, 0.5) !important;
 }
 
 html {
@@ -65,7 +65,6 @@ html {
     62.5% -> 1rem = 10px */
   font-size: 62.5%;
   overflow-x: hidden;
-  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -80,19 +79,41 @@ body {
 
 /* HEADINGS */
 
+.heading-primary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-size: 6.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
 /* BUTTONS */
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
 
 /* LINKS */
 
 .header-link:link,
-.header-link:visited {
-  text-decoration: none;
-  transition: all 0.3s;
-  cursor: pointer;
-  font-family: inherit;
+.header-link:visited,
+.address-link:link,
+.address-link:visited {
+  padding: 1rem;
   color: #363535;
-  font-size: 2.4rem;
-  font-weight: 500;
+}
+
+.header-link:hover,
+.header-link:active,
+.address-link:hover,
+.address-link:active {
+  color: #145f61;
 }
 
 /* LISTS */
@@ -126,10 +147,18 @@ body {
 
 /* CONTAINERS */
 
-.container {
-  max-width: 120rem;
+.container,
+.container--large {
   margin: 0 auto;
   padding: 0 3.2rem;
+}
+
+.container {
+  max-width: 120rem;
+}
+
+.container--large {
+  max-width: 130rem !important;
 }
 
 .centered--vertically {

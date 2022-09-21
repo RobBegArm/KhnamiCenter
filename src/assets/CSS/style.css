@@ -2,10 +2,12 @@
 
 .header {
   justify-content: space-between;
-  background-color: #ecf4f5;
-  height: 9.6rem;
-  padding: 0 4.8rem;
+  background-color: #fff;
+  height: 14.8rem;
+  padding: 4.8rem;
   position: relative;
+  font-size: 3rem;
+  font-weight: 500;
 }
 
 .header-nav,
@@ -15,11 +17,11 @@
 }
 
 .header-logo-img {
-  height: 7rem;
+  height: 12rem;
 }
 
 .header-nav {
-  gap: 2rem;
+  gap: 1.4rem;
 }
 
 .header-link--home {
@@ -28,17 +30,60 @@
 
 .header-adress {
   text-align: right;
+  row-gap: 1rem !important;
+}
+
+.header-icon {
+  display: inline-block;
+  color: #1f8f91;
+  font-size: 4.5rem;
 }
 
 /* MAIN COMPONENTS */
 
 /* Hero Section */
 
+.header,
+.section-hero {
+  background-color: #ecf4f5;
+}
+
 .section-hero {
   padding: 4.8rem 0 9.6rem 0;
 }
 
-.hero {
+.hero-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hero-text-box {
+  text-align: center;
+  row-gap: 4rem;
+}
+
+.hero-description {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+
+.hero-cta-btn:link,
+.hero-cta-btn:visited {
+  background-color: #229fa1;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 3rem 6rem;
+  width: 30rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.hero-cta-btn:hover,
+.hero-cta-btn:active {
+  background-color: #1f8f91;
 }
 
 /* cta section */

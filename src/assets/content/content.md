@@ -5,7 +5,6 @@
 - Cooperation with (?) Maybe UNDP or smth
 - Our Services [images of rooms and maybe personnel + list of services]
 - Testimonials + gallery
-- Pricing
 - Cta
 - Footer
 
@@ -19,13 +18,23 @@ Palliative care with dignity and kindness
 
 The Khnami Center provides palliative care to the elderly and adult population of Yerevan and the surrounding regions.
 
-# Pricing
+# Colaborations
+
+Armenian CA (Alzheimer Care ARmenia ACA)
+UNFPA
+Friends Home
+Promtest
 
 ?
 
 # Form to leave contact information
 
 ?
+
+# Calls
+
+09-18:00
+department open 24/7
 
 ##### --------------------------------------
 
@@ -72,7 +81,7 @@ Care with dignity and kindness
 
 # Contact
 
-Address: Gusan Sherami 2, Erevan, Armenia
+Address: Gusan Sherami 2, Erevan, Armenia, 3rd hark Armenikumi shenq
 Phone: +374 93 577539
 Email: khnamicenter@yahoo.com
 

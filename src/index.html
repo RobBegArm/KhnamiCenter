@@ -31,21 +31,25 @@
       <!-- Header Navigation -->
       <nav class="header-nav flex--centered-vertically">
       <!-- logo link -->
-        <a href="#" class="header-link header-link--home"><img
-          src="./assets/content/images/logo 1.png"
+        <a href="#" class="btn header-link header-link--home"><img
+          src="./assets/content/images/logo.png"
           alt="Khnami Logo"
           class="header-logo-img"
-        /></a>
-        <a href="#" class="header-link header-link--our-services">Our Services</a>
-        <a href="#" class="header-link header-link--gallery">Gallery</a>
-        <a href="#" class="header-link header-link--pricing">Pricing</a>
-        <a href="#" class="header-link header-link--cta">Cta</a>
+        /></abtn >
+        <!-- header nav links -->
+        <a href="#" class="btn header-link header-link--our-services">Our Services</a>
+        <a href="#" class="btn header-link header-link--gallery">Gallery</a>
+        <a href="#" class="btn header-link header-link--pricing">Pricing</a>
+        <a href="#" class="btn header-link header-link--contact">Contact</a>
       </nav>
+      <!-- header contact links -->
       <div class="header-contact">
       <div class="header-contact-container flex--centered-vertically">
-        <address class="header-adress">
-          <p class="adress">Address: Gusan Sherami 2, Yerevan, Armenia</p>
-          <p class="number">Phone: +374 93 577539</p>
+        <address class="header-adress grid">
+          <!-- map location -->
+          <a href="#" onclick='window.open("https://www.google.com/maps/place/Armenikum+Center,+Yerevan,+Armenia/@40.1820196,44.4413562,18.7z/data=!4m5!3m4!1s0x406abdf21a593b07:0x75b2d27a9ae3618!8m2!3d40.1820435!4d44.4413468!5m1!1e4?hl=en");return false;' class="btn address-link adress-map-location"><ion-icon name="navigate-outline" class="header-icon"></ion-icon> Gusan Sherami 2, Yerevan</a>
+          <!-- Phone Number -->
+          <a href="tel:+37493577539" class="btn address-link address-phone-number"> <ion-icon name="call-outline" class="header-icon"></ion-icon> (+374) 93 577539</a>
         </address>
       </div>  
       </div>
@@ -54,22 +58,23 @@
     <main>
       <!-- HERO SECTION -->
       <section class="section-hero">
-        <div class="hero container grid grid--2-cols centered--vertically">
+        <div class="hero container--large grid grid--2-cols centered--vertically">
           <!-- hero text -->
-          <div class="hero-text-box">
+          <div class="hero-text-box grid">
             <!-- hero headline -->
             <h1 class="heading-primary">Palliative care with dignity and kindness</h1>
             <!-- hero description -->
             <p class="hero-description">The Khnami Center provides palliative care to the elderly and adult population of Yerevan and the surrounding regions.</p>
             <!-- hero cta -->
+            <a href="#" class="btn hero-cta-btn">Book a free consultation</a>
+          </div>
+          <div class="hero-img-box">
+            <img src="./assets/content/images/Personnel 1 - cropped-enhanced.png" alt="Khnami Center nurses smiling for a group personnel picture" class="hero-img">
           </div>
         </div>
       </section>
-      <!-- PRICING SECTION -->
-      <section class="section-pricing">
-      <!-- CTA SECTION -->
-      <section class="section-cta">
-      </section>
+      <!-- OUR SERVICES SECTION -->
+      <section class="section-our-services">
     </main>
     <!-- FOOTER -->
     <footer class="footer">
