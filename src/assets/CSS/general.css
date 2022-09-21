@@ -68,8 +68,8 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  line-height: 1;
+  font-family: "Merriweather", "Aleo", "Times New Roman", serif;
+  line-height: 1.1;
   font-weight: 400;
   color: #555;
   font-size: 2rem;
@@ -82,9 +82,8 @@ body {
 .heading-primary {
   font-weight: 700;
   color: #333;
-  letter-spacing: -0.5px;
-  font-size: 6.2rem;
-  line-height: 1.05;
+  font-size: 7.4rem;
+  line-height: 1.2;
   margin-bottom: 3.2rem;
 }
 
@@ -113,7 +112,15 @@ body {
 .header-link:active,
 .address-link:hover,
 .address-link:active {
-  color: #145f61;
+  color: #1f8f91;
+}
+
+.address-link:link,
+.address-link:visited {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
 }
 
 /* LISTS */

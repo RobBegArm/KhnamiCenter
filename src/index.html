@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="./assets/CSS/general.css" />
     <link rel="stylesheet" href="./assets/CSS/style.css" />
     <link rel="stylesheet" href="./assets/CSS/queries.css" />
-    <!-- Google Fonts -->
+    <!-- Google Fonts Aleo + Merriweather -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Favicon -->
     <link
       rel="icon"
@@ -37,19 +38,28 @@
           class="header-logo-img"
         /></abtn >
         <!-- header nav links -->
-        <a href="#" class="btn header-link header-link--our-services">Our Services</a>
+        <a href="#" class="btn header-link header-link--our-services">Services</a>
         <a href="#" class="btn header-link header-link--gallery">Gallery</a>
-        <a href="#" class="btn header-link header-link--pricing">Pricing</a>
+        <a href="#" class="btn header-link header-link--staff">Staff</a>
         <a href="#" class="btn header-link header-link--contact">Contact</a>
       </nav>
       <!-- header contact links -->
       <div class="header-contact">
       <div class="header-contact-container flex--centered-vertically">
-        <address class="header-adress grid">
+        <address class="header-address grid">
           <!-- map location -->
-          <a href="#" onclick='window.open("https://www.google.com/maps/place/Armenikum+Center,+Yerevan,+Armenia/@40.1820196,44.4413562,18.7z/data=!4m5!3m4!1s0x406abdf21a593b07:0x75b2d27a9ae3618!8m2!3d40.1820435!4d44.4413468!5m1!1e4?hl=en");return false;' class="btn address-link adress-map-location"><ion-icon name="navigate-outline" class="header-icon"></ion-icon> Gusan Sherami 2, Yerevan</a>
-          <!-- Phone Number -->
-          <a href="tel:+37493577539" class="btn address-link address-phone-number"> <ion-icon name="call-outline" class="header-icon"></ion-icon> (+374) 93 577539</a>
+          <a href="#" class="header-address-box flex--centered-vertically address-link" onclick='window.open("https://www.google.com/maps/place/Armenikum+Center,+Yerevan,+Armenia/@40.1820196,44.4413562,18.7z/data=!4m5!3m4!1s0x406abdf21a593b07:0x75b2d27a9ae3618!8m2!3d40.1820435!4d44.4413468!5m1!1e4?hl=en");return false;'>
+            <ion-icon name="navigate-outline" class="header-icon"></ion-icon>
+            <div class="header-address-text"><p class="address-text">Gusan Sherami 2, Yerevan</p></div>
+          </a>
+          <!-- Phone Number  -->
+          <a href="#" class="header-address-box flex--centered-vertically address-link"
+          href="tel:+37493577539">
+            <ion-icon name="call-outline" class="header-icon"></ion-icon>
+            <div class="header-address-text"><p class="address-text">(+374) 93 577539</p></div>
+          </a>
+         <!-- class="btn ">
+          <a  class="btn a">  -->
         </address>
       </div>  
       </div>
@@ -69,7 +79,7 @@
             <a href="#" class="btn hero-cta-btn">Book a free consultation</a>
           </div>
           <div class="hero-img-box">
-            <img src="./assets/content/images/Personnel 1 - cropped-enhanced.png" alt="Khnami Center nurses smiling for a group personnel picture" class="hero-img">
+            <img src="./assets/content/images/Personnel 1 - cropped-enhanced.png" alt="Khnami Center nurses smiling for a group personnel picture" class="hero-img shadow">
           </div>
         </div>
       </section>
