@@ -24,7 +24,7 @@ allLinks.forEach(link => {
 
 //Gallery
 
-let selectedImage = 1;
+let currentImage = 1;
 const imagesNumber = 3;
 
 const galleryButtonLeft = document.querySelector(".gallery-btn-left");
@@ -32,29 +32,37 @@ const galleryButtonRight = document.querySelector(".gallery-btn-right");
 const galleryImgBox = document.querySelector(".gallery-img-box");
 
 const galleryNavElArray = document.querySelectorAll(".gallery-nav-bullet");
-const galleryNavEl1 = document.querySelector("#gallery_bullet_1");
-const galleryNavEl2 = document.querySelector("#gallery_bullet_2");
-const galleryNavEl3 = document.querySelector("#gallery_bullet_3");
 
-// galleryNavElArray[0]
-
+//Event Listeners for gallery arrows
 galleryButtonLeft.addEventListener("click", e => {
-  changeGalleryNavBullet("ellipse-outline");
-  shiftImgNo("left");
-  changeImg();
-  changeGalleryNavBullet("ellipse");
+  changeGalleryImage("left");
 });
 
 galleryButtonRight.addEventListener("click", e => {
-  changeGalleryNavBullet("ellipse-outline");
-  shiftImgNo("right");
-  changeImg();
-  changeGalleryNavBullet("ellipse");
+  changeGalleryImage("right");
 });
 
+//Event Listeners for gallery bullets
+galleryNavElArray.forEach(el => {
+  let idString = el.id.toString();
+  let id = idString[idString.length - 1];
+  el.addEventListener("click", e => {
+    setGalleryImage(id);
+  });
+});
+
+//Sets the gallery image directly
+const setGalleryImage = function (imageNo) {
+  changeGalleryNavBullet("ellipse-outline");
+  currentImage = parseInt(imageNo);
+  changeImg();
+  changeGalleryNavBullet("ellipse");
+};
+
+//Changes the gallery image by arrows
 const changeGalleryImage = function (direction) {
   changeGalleryNavBullet("ellipse-outline");
-  shiftImgNo("right");
+  shiftImgNo(direction);
   changeImg();
   changeGalleryNavBullet("ellipse");
 };
@@ -63,17 +71,17 @@ const changeGalleryImage = function (direction) {
 const shiftImgNo = function (direction) {
   switch (direction) {
     case "right":
-      if (selectedImage === imagesNumber) {
-        selectedImage = 1;
-      } else if (selectedImage < imagesNumber) {
-        selectedImage++;
+      if (currentImage === imagesNumber) {
+        currentImage = 1;
+      } else if (currentImage < imagesNumber) {
+        currentImage++;
       }
       break;
     case "left":
-      if (selectedImage === 1) {
-        selectedImage = imagesNumber;
-      } else if (selectedImage > 1) {
-        selectedImage--;
+      if (currentImage === 1) {
+        currentImage = imagesNumber;
+      } else if (currentImage > 1) {
+        currentImage--;
       }
       break;
   }
@@ -81,12 +89,12 @@ const shiftImgNo = function (direction) {
 
 // Change the image according to active image number
 const changeImg = function () {
-  galleryImgBox.style.background = `url('/assets/content/images/Gallery-img-${selectedImage}-original.jpg')`;
+  galleryImgBox.style.background = `url('/assets/content/images/Gallery-img-${currentImage}-original.jpg')`;
 };
 
 // Change the nav bullet according to bullet type (ellipse/ellipse-outline)
 const changeGalleryNavBullet = function (type) {
   galleryNavElArray[
-    selectedImage - 1
+    currentImage - 1
   ].innerHTML = `<ion-icon name="${type}" class="gallery-nav-icon"></ion-icon>`;
 };
