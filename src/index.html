@@ -8,16 +8,51 @@
       name="description"
       content="The Khnami Center provides palliative care to the elderly and adult population of Yerevan and the surrounding regions."
     />
+    <!-- Favicon Package -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/content/images/favicon_package/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/content/images/favicon_package/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/content/images/favicon_package/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="./assets/content/images/favicon_package/site.webmanifest"
+    />
+    <link
+      rel="mask-icon"
+      href="./assets/content/images/favicon_package/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/CSS/general.css" />
     <link rel="stylesheet" href="./assets/CSS/style.css" />
     <link rel="stylesheet" href="./assets/CSS/queries.css" />
     <!-- Google Fonts Aleo + Merriweather -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Favicon -->
     <link
       rel="icon"
@@ -31,37 +66,51 @@
     <header class="header flex--centered-vertically">
       <!-- Header Navigation -->
       <nav class="header-nav flex--centered-vertically">
-      <!-- logo link -->
-        <a href="#" class="btn header-link header-link--home"><img
-          src="./assets/content/images/logo.png"
-          alt="Khnami Logo"
-          class="header-logo-img"
-        /></abtn >
+        <!-- logo link -->
+        <a href="#" class="btn header-link header-link--home"
+          ><img
+            src="./assets/content/images/logo.png"
+            alt="Khnami Logo"
+            class="header-logo-img"
+        /></a>
         <!-- header nav links -->
-        <a href="#" class="btn header-link header-link--our-services">Services</a>
+        <a
+          href="#section_our_services"
+          class="btn header-link header-link--our-services"
+          >Services</a
+        >
         <a href="#" class="btn header-link header-link--gallery">Gallery</a>
         <a href="#" class="btn header-link header-link--staff">Staff</a>
         <a href="#" class="btn header-link header-link--contact">Contact</a>
       </nav>
       <!-- header contact links -->
       <div class="header-contact">
-      <div class="header-contact-container flex--centered-vertically">
-        <address class="header-address grid">
-          <!-- map location -->
-          <a href="#" class="header-address-box flex--centered-vertically address-link" onclick='window.open("https://www.google.com/maps/place/Armenikum+Center,+Yerevan,+Armenia/@40.1820196,44.4413562,18.7z/data=!4m5!3m4!1s0x406abdf21a593b07:0x75b2d27a9ae3618!8m2!3d40.1820435!4d44.4413468!5m1!1e4?hl=en");return false;'>
-            <ion-icon name="navigate-outline" class="header-icon"></ion-icon>
-            <div class="header-address-text"><p class="address-text">Gusan Sherami 2, Yerevan</p></div>
-          </a>
-          <!-- Phone Number  -->
-          <a href="#" class="header-address-box flex--centered-vertically address-link"
-          href="tel:+37493577539">
-            <ion-icon name="call-outline" class="header-icon"></ion-icon>
-            <div class="header-address-text"><p class="address-text">(+374) 93 577539</p></div>
-          </a>
-         <!-- class="btn ">
-          <a  class="btn a">  -->
-        </address>
-      </div>  
+        <div class="header-contact-container flex--centered-vertically">
+          <address class="header-address grid">
+            <!-- map location -->
+            <a
+              href="#"
+              class="header-address-box flex--centered-vertically address-link"
+              onclick='window.open("https://www.google.com/maps/place/Armenikum+Center,+Yerevan,+Armenia/@40.1820196,44.4413562,18.7z/data=!4m5!3m4!1s0x406abdf21a593b07:0x75b2d27a9ae3618!8m2!3d40.1820435!4d44.4413468!5m1!1e4?hl=en");return false;'
+            >
+              <ion-icon name="navigate-outline" class="header-icon"></ion-icon>
+              <div class="header-address-text">
+                <p class="address-text">Gusan Sherami 2, Yerevan</p>
+              </div>
+            </a>
+            <!-- Phone Number  -->
+            <a
+              href="#"
+              class="header-address-box flex--centered-vertically address-link"
+              href="tel:+37493577539"
+            >
+              <ion-icon name="call-outline" class="header-icon"></ion-icon>
+              <div class="header-address-text">
+                <p class="address-text">(+374) 93 577539</p>
+              </div>
+            </a>
+          </address>
+        </div>
       </div>
     </header>
     <!-- MAIN -->
@@ -72,34 +121,111 @@
           <!-- hero text -->
           <div class="hero-text-box grid">
             <!-- hero headline -->
-            <h1 class="heading-primary">Palliative care with dignity and kindness</h1>
+            <h1 class="heading-primary">
+              Palliative care with dignity and kindness
+            </h1>
             <!-- hero description -->
-            <p class="hero-description">The Khnami Center provides palliative care to the elderly and adult population of Yerevan and the surrounding regions.</p>
+            <p class="hero-description">
+              The Khnami Center provides palliative care to the elderly and
+              adult population of Yerevan and the surrounding regions.
+            </p>
             <!-- hero cta -->
             <a href="#" class="btn hero-cta-btn">Book a free consultation</a>
           </div>
           <div class="hero-img-box">
-            <img src="./assets/content/images/Personnel 1 - cropped-enhanced.png" alt="Khnami Center nurses smiling for a group personnel picture" class="hero-img shadow">
+            <img
+              src="./assets/content/images/Personnel 1 - cropped-enhanced.png"
+              alt="Khnami Center nurses smiling for a group personnel picture"
+              class="hero-img shadow"
+            />
           </div>
         </div>
       </section>
-      <!-- Cooperations SECTION -->
+      <!-- COOPERATIONS SECTION -->
       <section class="section-cooperations">
         <div class="cooperations container">
+          <!-- cooperations headline -->
           <p>We cooperate with</p>
+          <!-- cooperations logos -->
           <div class="coop-logo-box flex--centered-vertically">
-            <img class="coop-logo-img" src="./assets/content/images/UNFPA_logo.png" alt="UNFPA Logo">
-            <img class="coop-logo-img" src="./assets/content/images/ACA_logo.png" alt="ACA Logo">
-            <img class="coop-logo-img" src="./assets/content/images/FriendsHome_logo.png" alt="Friends Home Logo">
-            <img class="coop-logo-img" src="./assets/content/images/Promtest_logo.png" alt="Promtest Laboratories Logo">
+            <img
+              class="coop-logo-img"
+              src="./assets/content/images/UNFPA_logo.png"
+              alt="UNFPA Logo"
+            />
+            <img
+              class="coop-logo-img"
+              src="./assets/content/images/ACA_logo.png"
+              alt="ACA Logo"
+            />
+            <img
+              class="coop-logo-img"
+              src="./assets/content/images/FriendsHome_logo.png"
+              alt="Friends Home Logo"
+            />
+            <img
+              class="coop-logo-img"
+              src="./assets/content/images/Promtest_logo.png"
+              alt="Promtest Laboratories Logo"
+            />
           </div>
         </div>
+      </section>
       <!-- OUR SERVICES SECTION -->
-      <section class="section-our-services">
+      <section class="section-our-services" id="#section_our_services">
+        <!-- our services headline -->
+        <div class="container our-services-headline padding-bot-lg1">
+          <h2 class="secondary-heading">Our Services</h2>
+        </div>
+        <!-- our services grid -->
+        <div class="our-services container grid grid--3-cols">
+          <!-- our services: accomodation -->
+          <div class="services-box grid">
+            <p class="services-box-header">Accomodation</p>
+            <div class="services-icon-box">
+              <ion-icon
+                name="home-outline"
+                class="services-main-icon"
+              ></ion-icon>
+            </div>
+            <ul class="services--accomodation list">
+              <li class="service">
+                <div class="checkmark">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark-icon"
+                  ></ion-icon>
+                </div>
+                <p>8 sunny and bright rooms</p>
+              </li>
+              <li class="service">
+                <div class="checkmark">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark-icon"
+                  ></ion-icon>
+                </div>
+                <p>Own bathrooms with shower</p>
+              </li>
+              <li class="service">
+                <div class="checkmark">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark-icon"
+                  ></ion-icon>
+                </div>
+                <p>TV, internet and a refrigerator</p>
+              </li>
+            </ul>
+          </div>
+          <!-- our services: care -->
+          <div class="services-box grid">Services 2</div>
+          <div class="services-box grid">Services 3</div>
+        </div>
+      </section>
     </main>
     <!-- FOOTER -->
-    <footer class="footer">
-    </footer>
+    <footer class="footer"></footer>
     <!-- icon pack -->
     <script
       type="module"

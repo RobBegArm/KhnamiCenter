@@ -95,7 +95,7 @@
 
 /* Cooperations Section */
 
-.cooperations {
+.section-cooperations {
   padding: 2.4rem 0 9.6rem 0 !important;
 }
 
@@ -110,7 +110,40 @@
 }
 
 .coop-logo-img {
-  height: 10rem;
+  height: 7rem;
+}
+
+/* Services */
+
+.section-our-services {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.services-box {
+  grid-template-columns: 1fr;
+  border: 1px solid purple;
+  text-align: center;
+  row-gap: 1rem;
+  padding: 2rem 1rem;
+}
+
+.services-main-icon {
+  font-size: 16rem;
+  color: #229fa1;
+}
+
+.services--accomodation {
+  padding-left: 1rem;
+  align-items: left;
+}
+
+.service {
+  display: flex;
+  justify-content: left;
+}
+
+.checkmark-icon {
+  font-size: 2.5rem;
 }
 
 /* cta section */

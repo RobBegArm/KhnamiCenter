@@ -46,18 +46,20 @@ The Khnami Palliative Center was founded in November 2019, and licensed by the M
 
 The palliative center offers:
 
+Accomodation:
 -8 sunny, bright rooms
--rooms are provided with a refrigerator, TV, internet
 -each room has its own bathroom with shower
+-rooms are provided with a refrigerator, TV, internet
+
+Daily Care:
 -24/7 nursing care
 -three meals a day are provided
 -bed linen and household items are provided
--oxygen is supplied centrally
 
+Medical Treatment:
+-oxygen is supplied centrally
 -Symptomatic treatment, including relief of pain with both NVPS drugs and psychotropic and narcotic drugs
--Round-the-clock nursing care
 -Hygiene and preventive procedures
--Comfortable conditions
 
 # Motto
 
