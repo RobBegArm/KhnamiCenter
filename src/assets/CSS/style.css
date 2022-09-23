@@ -97,6 +97,7 @@
 
 .section-cooperations {
   padding: 2.4rem 0 9.6rem 0 !important;
+  font-family: "Aleo", serif;
 }
 
 .cooperations p {
@@ -115,21 +116,30 @@
 
 /* Services */
 
-.section-our-services {
+.section-services {
   padding: 4.8rem 0 9.6rem 0;
 }
 
 .services-box {
   grid-template-columns: 1fr;
-  border: 1px solid purple;
   text-align: center;
   row-gap: 1rem;
   padding: 2rem 1rem;
 }
 
+.services-box-header {
+  font-size: 3rem;
+}
+
 .services-main-icon {
   font-size: 16rem;
   color: #229fa1;
+  padding: 2rem 0 4rem 0;
+}
+
+.checkmark-icon {
+  color: #229fa1;
+  padding: 0 1rem 0 0;
 }
 
 .services--accomodation {
@@ -140,10 +150,95 @@
 .service {
   display: flex;
   justify-content: left;
+  font-family: "Aleo", serif;
 }
 
 .checkmark-icon {
   font-size: 2.5rem;
+}
+
+/* Gallery */
+
+.section-gallery {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.gallery {
+  padding: 9rem 3.2rem;
+}
+
+.gallery-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.gallery-btn-left {
+  right: 97%;
+}
+
+.gallery-btn-right {
+  left: 97%;
+}
+
+.gallery-img-icon {
+  font-size: 5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #229fa1;
+}
+
+.gallery-img-icon:hover,
+.gallery-img-icon:active,
+.gallery-nav-icon:hover,
+.gallery-nav-icon:active {
+  cursor: pointer;
+  color: #1f8f91;
+}
+
+.gallery-element {
+  margin: 0 auto;
+  width: 85rem;
+  height: 30rem;
+  background-color: #229fa1;
+  border-radius: 6px;
+  position: relative;
+}
+
+/*690 x 460 px (3:2) image*/
+/*1382 x 920 px (3:2) original image*/
+.gallery-img-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 69rem;
+  height: 46rem;
+  border-radius: 6px;
+  z-index: 999;
+  background-size: contain !important;
+  background: url("/assets/content/images/Gallery-img-1-original.jpg");
+}
+
+.gallery-nav {
+  padding: 1.6rem 3.2rem;
+}
+
+.gallery-nav-bullets {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.gallery-nav-icon {
+  color: #229fa1;
+  font-size: 2.4rem;
+}
+
+.red {
+  background-color: red;
 }
 
 /* cta section */
@@ -152,4 +247,4 @@
 
 /* Navigation */
 
-/* Sticky navigation */
+/* Sticky navigation */ ;

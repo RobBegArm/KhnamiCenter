@@ -2,11 +2,23 @@
 
 - Logo + Navigation [also adress and call button]
 - Hero [headline + hero img + cta button]
-- Cooperation with (?) Maybe UNDP or smth
-- Our Services [images of rooms and maybe personnel + list of services]
-- Testimonials + gallery
-- Cta
-- Footer
+- Cooperation with
+- Services
+
+* Gallery [images of rooms]
+* Testimonials
+* Staff
+* Cta
+* Footer
+
+# Page Responsiveness
+
+- Add media queries
+
+# Deploy
+
+- Deploy on Netlify
+- Buy a domain
 
 ###### MISSING CONTENT
 

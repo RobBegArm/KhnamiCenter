@@ -75,12 +75,16 @@
         /></a>
         <!-- header nav links -->
         <a
-          href="#section_our_services"
-          class="btn header-link header-link--our-services"
+          href="#section_services"
+          class="btn header-link header-link--services"
           >Services</a
         >
-        <a href="#" class="btn header-link header-link--gallery">Gallery</a>
-        <a href="#" class="btn header-link header-link--staff">Staff</a>
+        <a href="#section_gallery" class="btn header-link header-link--gallery"
+          >Gallery</a
+        >
+        <a href="#section_staff" class="btn header-link header-link--staff"
+          >Staff</a
+        >
         <a href="#" class="btn header-link header-link--contact">Contact</a>
       </nav>
       <!-- header contact links -->
@@ -130,7 +134,9 @@
               adult population of Yerevan and the surrounding regions.
             </p>
             <!-- hero cta -->
-            <a href="#" class="btn hero-cta-btn">Book a free consultation</a>
+            <a href="#" class="btn hero-cta-btn shadow--animated"
+              >Book a free consultation</a
+            >
           </div>
           <div class="hero-img-box">
             <img
@@ -171,16 +177,16 @@
           </div>
         </div>
       </section>
-      <!-- OUR SERVICES SECTION -->
-      <section class="section-our-services" id="#section_our_services">
-        <!-- our services headline -->
-        <div class="container our-services-headline padding-bot-lg1">
-          <h2 class="secondary-heading">Our Services</h2>
+      <!-- SERVICES SECTION -->
+      <section class="section-services" id="section_services">
+        <!-- services headline -->
+        <div class="container services-headline padding-bot-lg1">
+          <h2 class="heading-secondary">Services</h2>
         </div>
-        <!-- our services grid -->
-        <div class="our-services container grid grid--3-cols">
-          <!-- our services: accomodation -->
-          <div class="services-box grid">
+        <!-- Services grid -->
+        <div class="services container grid grid--3-cols">
+          <!-- Services: accomodation -->
+          <div class="services-box grid shadow--dark">
             <p class="services-box-header">Accomodation</p>
             <div class="services-icon-box">
               <ion-icon
@@ -205,6 +211,15 @@
                     class="checkmark-icon"
                   ></ion-icon>
                 </div>
+                <p>Comfort and privacy</p>
+              </li>
+              <li class="service">
+                <div class="checkmark">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark-icon"
+                  ></ion-icon>
+                </div>
                 <p>Own bathrooms with shower</p>
               </li>
               <li class="service">
@@ -218,9 +233,156 @@
               </li>
             </ul>
           </div>
-          <!-- our services: care -->
-          <div class="services-box grid">Services 2</div>
-          <div class="services-box grid">Services 3</div>
+          <!-- Services: care -->
+          <div class="services-box grid shadow--dark">
+            <p class="services-box-header">Daily Care</p>
+            <div class="services-icon-box">
+              <ion-icon
+                name="heart-outline"
+                class="services-main-icon"
+              ></ion-icon>
+            </div>
+            <ul class="services--accomodation list">
+              <li class="service">
+                <div class="checkmark">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark-icon"
+                  ></ion-icon>
+                </div>
+                <p>24/7 nursing care</p>
+              </li>
+              <li class="service">
+                <div class="checkmark">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark-icon"
+                  ></ion-icon>
+                </div>
+                <p>3 meals a day</p>
+              </li>
+              <li class="service">
+                <div class="checkmark">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark-icon"
+                  ></ion-icon>
+                </div>
+                <p>Hygiene procedures</p>
+              </li>
+              <li class="service">
+                <div class="checkmark">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark-icon"
+                  ></ion-icon>
+                </div>
+                <p>Bed linen and household items</p>
+              </li>
+            </ul>
+          </div>
+          <!-- services: treatment -->
+          <div class="services-box grid shadow--dark">
+            <p class="services-box-header">Treatment</p>
+            <div class="services-icon-box">
+              <ion-icon
+                name="medkit-outline"
+                class="services-main-icon"
+              ></ion-icon>
+            </div>
+            <ul class="services--accomodation list">
+              <li class="service">
+                <div class="checkmark">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark-icon"
+                  ></ion-icon>
+                </div>
+                <p>Symptomatic treatment</p>
+              </li>
+              <li class="service">
+                <div class="checkmark">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark-icon"
+                  ></ion-icon>
+                </div>
+                <p>Pain relief</p>
+              </li>
+              <li class="service">
+                <div class="checkmark">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark-icon"
+                  ></ion-icon>
+                </div>
+                <p>Centrally supplied oxygen</p>
+              </li>
+              <li class="service">
+                <div class="checkmark">
+                  <ion-icon
+                    name="checkmark-outline"
+                    class="checkmark-icon"
+                  ></ion-icon>
+                </div>
+                <p>Preventive procedures</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- GALLERY -->
+      <section class="section-gallery" id="section_gallery">
+        <!-- gallery headline -->
+        <div class="container gallery-headline padding-bot-lg1">
+          <h2 class="heading-secondary">Gallery</h2>
+        </div>
+        <!-- gallery container -->
+        <div class="gallery container grid">
+          <div class="gallery-element">
+            <!-- gallery image -->
+            <div class="gallery-img-box shadow--dark--strong"></div>
+            <!-- gallery buttons -->
+            <btn class="gallery-btn gallery-btn-left">
+              <ion-icon
+                name="chevron-back-circle-outline"
+                class="gallery-img-icon shadow--dark--strong"
+              ></ion-icon>
+            </btn>
+            <btn class="gallery-btn gallery-btn-right">
+              <ion-icon
+                name="chevron-forward-circle-outline"
+                class="gallery-img-icon shadow--dark--strong"
+              ></ion-icon>
+            </btn>
+          </div>
+        </div>
+        <!-- gallery navigation -->
+        <nav class="gallery-nav container">
+          <ul class="gallery-nav-bullets list">
+            <li class="gallery-nav-bullet" id="gallery_bullet_1">
+              <ion-icon name="ellipse" class="gallery-nav-icon"></ion-icon>
+            </li>
+            <li class="gallery-nav-bullet" id="gallery_bullet_2">
+              <ion-icon
+                name="ellipse-outline"
+                class="gallery-nav-icon"
+              ></ion-icon>
+            </li>
+            <li class="gallery-nav-bullet" id="gallery_bullet_3">
+              <ion-icon
+                name="ellipse-outline"
+                class="gallery-nav-icon"
+              ></ion-icon>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!-- STAFF -->
+      <section class="section-staff" id="section_staff">
+        <!-- staff headline -->
+        <div class="container staff-headline padding-bot-lg1">
+          <h2 class="heading-secondary">Staff</h2>
         </div>
       </section>
     </main>
