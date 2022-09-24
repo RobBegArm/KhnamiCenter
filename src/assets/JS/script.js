@@ -24,14 +24,15 @@ allLinks.forEach(link => {
 
 //Gallery
 
-let currentImage = 1;
-const imagesNumber = 3;
-
 const galleryButtonLeft = document.querySelector(".gallery-btn-left");
 const galleryButtonRight = document.querySelector(".gallery-btn-right");
 const galleryImgBox = document.querySelector(".gallery-img-box");
 
 const galleryNavElArray = document.querySelectorAll(".gallery-nav-bullet");
+
+//Current Active image number and total images number
+let currentImage = 1;
+const totalImageNumber = 4;
 
 //Event Listeners for gallery arrows
 galleryButtonLeft.addEventListener("click", e => {
@@ -71,15 +72,15 @@ const changeGalleryImage = function (direction) {
 const shiftImgNo = function (direction) {
   switch (direction) {
     case "right":
-      if (currentImage === imagesNumber) {
+      if (currentImage === totalImageNumber) {
         currentImage = 1;
-      } else if (currentImage < imagesNumber) {
+      } else if (currentImage < totalImageNumber) {
         currentImage++;
       }
       break;
     case "left":
       if (currentImage === 1) {
-        currentImage = imagesNumber;
+        currentImage = totalImageNumber;
       } else if (currentImage > 1) {
         currentImage--;
       }
@@ -87,9 +88,19 @@ const shiftImgNo = function (direction) {
   }
 };
 
+//Waits for the end of animation
+galleryImgBox.addEventListener(
+  "animationend",
+  function () {
+    this.classList.remove("shade");
+  },
+  false
+);
+
 // Change the image according to active image number
 const changeImg = function () {
   galleryImgBox.style.background = `url('/assets/content/images/Gallery-img-${currentImage}-original.jpg')`;
+  galleryImgBox.classList.add("shade");
 };
 
 // Change the nav bullet according to bullet type (ellipse/ellipse-outline)

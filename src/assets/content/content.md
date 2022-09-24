@@ -4,12 +4,20 @@
 - Hero [headline + hero img + cta button]
 - Cooperation with
 - Services
+- Gallery [images of rooms]
+- Testimonials
 
-* Gallery [images of rooms]
-* Testimonials
 * Staff
 * Cta
 * Footer
+
+CTA FORM
+
+- Hivandi Anun
+- Hivandi Tariq
+- Axtoroshum
+- Contacti Anun
+- Contact Phone Number
 
 # Page Responsiveness
 
@@ -108,8 +116,9 @@ Rating · 4.8 (19 Reviews) Facebook
 Ashot Enokyan-
 I would like to express my gratitude to the team at Khnami Paliativ Care.They have a wonderful, caring and a professional service.
 
-Narine Nahapetyan-
-Շնորհակալ եմ կենտրոնի անձնակազմից `տնօրեն Դիանա Բեգլարյանից, բժիշկ Վարուժան Մազմանյանից,ավագ բուժքույր Սրբուհի Մինասյանից, բուժքույրերից ու մայրապետներից ` հոգատար, բանիմաց վերաբերմունքի համար։ Նման հաստատությունները սպեցիֆիկ բնույթ ունեն, և մեր պահանջներն ու սպասելիքներն էլ պետք է համարժեք լինեն ։ Վստահաբար կարող եմ ասել, որ այստեղ անում են առավելը` կյանքի բարդագույն փուլում հայտնված մարդկանց համար
+Anahit Aghababyan
+Անչափ շնորհակալ ենք հոգատար վերաբերմունք և պրոֆեսիոնալ մոտեցման համար
+Առանձնահատուկ շնորհակալություն տնօրեն Տիկին Դիաննային մարդ տեսակի համար
 
 Irina Kaz-
 Здравствуйте, дорогие работники медицинского центра "Хнами"!

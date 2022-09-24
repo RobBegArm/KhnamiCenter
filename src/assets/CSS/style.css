@@ -31,6 +31,10 @@
   row-gap: 0.5rem !important;
 }
 
+.header-contact {
+  font-size: 2.4rem;
+}
+
 .header-address-box {
   gap: 1rem;
   margin-left: auto;
@@ -51,12 +55,9 @@
 /* Hero Section */
 
 .header,
-.section-hero {
+.section-hero,
+.section-gallery {
   background-color: #ecf4f5;
-}
-
-.section-hero {
-  padding: 4.8rem 0 9.6rem 0;
 }
 
 .hero-img {
@@ -96,7 +97,6 @@
 /* Cooperations Section */
 
 .section-cooperations {
-  padding: 2.4rem 0 9.6rem 0 !important;
   font-family: "Aleo", serif;
 }
 
@@ -115,10 +115,6 @@
 }
 
 /* Services */
-
-.section-services {
-  padding: 4.8rem 0 9.6rem 0;
-}
 
 .services-box {
   grid-template-columns: 1fr;
@@ -159,15 +155,12 @@
 
 /* Gallery */
 
-.section-gallery {
-  padding: 4.8rem 0 9.6rem 0;
-}
-
 .gallery {
   padding: 9rem 3.2rem;
 }
 
 .gallery-btn {
+  color: #229fa1;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -190,22 +183,32 @@
   font-size: 5rem;
   border-radius: 50%;
   background-color: #fff;
-  color: #229fa1;
+  color: inherit;
+  /* color: #229fa1; */
 }
 
-.gallery-img-icon:hover,
-.gallery-img-icon:active,
-.gallery-nav-icon:hover,
-.gallery-nav-icon:active {
+.gallery-btn:hover,
+.gallery-btn:active,
+.gallery-nav-bullet:hover,
+.gallery-nav-bullet:active {
   cursor: pointer;
   color: #1f8f91;
 }
 
 .gallery-element {
   margin: 0 auto;
-  width: 85rem;
+  width: 86.25rem;
   height: 30rem;
-  background-color: #229fa1;
+  background: rgb(34, 159, 161);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 159, 161, 1) 0%,
+    rgba(34, 159, 161, 1) 10.1%,
+    rgba(236, 244, 245, 1) 10.1%,
+    rgba(236, 244, 245, 1) 89.9%,
+    rgba(34, 159, 161, 1) 89.9%,
+    rgba(34, 159, 161, 1) 100%
+  );
   border-radius: 6px;
   position: relative;
 }
@@ -237,14 +240,46 @@
   justify-content: center;
 }
 
-.gallery-nav-icon {
+.gallery-nav-bullet {
   color: #229fa1;
+}
+
+.gallery-nav-icon {
+  color: inherit;
   font-size: 2.4rem;
 }
 
-.red {
-  background-color: red;
+/*testimonials*/
+
+.testimonials {
+  padding: 1.6rem 3.2rem;
 }
+
+.testimonial-box {
+  max-width: 40rem;
+  max-height: 36rem;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  height: 14rem;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.testimonial-author {
+  color: #666;
+  font-size: 1.6rem;
+}
+
+/* staff section */
 
 /* cta section */
 
@@ -252,4 +287,4 @@
 
 /* Navigation */
 
-/* Sticky navigation */ ;
+/* Sticky navigation */
