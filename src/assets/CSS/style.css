@@ -28,11 +28,8 @@
 }
 
 .header-address {
-  row-gap: 0.5rem !important;
-}
-
-.header-contact {
-  font-size: 2.4rem;
+  row-gap: 0rem !important;
+  font-size: 2rem;
 }
 
 .header-address-box {
@@ -47,7 +44,7 @@
 .header-icon {
   display: inline-block;
   color: #1f8f91;
-  font-size: 4.4rem;
+  font-size: 3rem;
 }
 
 /* MAIN COMPONENTS */
