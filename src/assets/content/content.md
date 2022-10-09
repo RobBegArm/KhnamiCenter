@@ -1,15 +1,31 @@
 # Page Structure
 
-- Logo + Navigation [also adress and call button]
-- Hero [headline + hero img + cta button]
-- Cooperation with
-- Services
-- Gallery [images of rooms]
-- Testimonials
+[DONE] Logo + Navigation [also adress and call button]
+-add language select + support
+[DONE] Hero [headline + hero img + cta button]
+[DONE] Cooperation with
+[DONE] Services
 
-* Staff
-* Cta
-* Footer
+- Gallery [images of rooms]
+  [DONE] Testimonials
+- Staff
+
+---
+
+1. Beglaryan D., Head Of The Center
+2. Tantushyan R., Caregiver
+3. Suqiasyan K., Nurse
+4. Mazmanyan V., Family doctor
+5. Garakeshishyan S., Nurse
+6. Qocharyan S., Nurse
+7. Demirchyan E., Oncologist
+8. Nersisyan S., Senior Nurse
+9. Sirekyan G., Nurse
+10. Karapetyan E., Nurse
+
+---
+
+- Cta
 
 CTA FORM
 
@@ -19,9 +35,16 @@ CTA FORM
 - Contacti Anun
 - Contact Phone Number
 
+- Footer
+
 # Page Responsiveness
 
 - Add media queries
+
+# Languages
+
+- Translate To Russian
+- Translate to Armenian
 
 # Deploy
 
@@ -29,27 +52,6 @@ CTA FORM
 - Buy a domain
 
 ###### MISSING CONTENT
-
-## Headline
-
-Palliative care with dignity and kindness
-
-### Summary
-
-The Khnami Center provides palliative care to the elderly and adult population of Yerevan and the surrounding regions.
-
-# Colaborations
-
-Armenian CA (Alzheimer Care ARmenia ACA)
-UNFPA
-Friends Home
-Promtest
-
-?
-
-# Form to leave contact information
-
-?
 
 # Calls
 
@@ -61,45 +63,6 @@ department open 24/7
 # About Us
 
 The Khnami Palliative Center was founded in November 2019, and licensed by the Ministry of Health of Armenia in June 2020. Already in July 2020, the center accepted its first patients. The Khnami Center provides palliative care to the elderly and adult population of Yerevan and the surrounding regions.
-
-# Services
-
-The palliative center offers:
-
-Accomodation:
--8 sunny, bright rooms
--each room has its own bathroom with shower
--rooms are provided with a refrigerator, TV, internet
-
-Daily Care:
--24/7 nursing care
--three meals a day are provided
--bed linen and household items are provided
-
-Medical Treatment:
--oxygen is supplied centrally
--Symptomatic treatment, including relief of pain with both NVPS drugs and psychotropic and narcotic drugs
--Hygiene and preventive procedures
-
-# Motto
-
-Care with dignity and kindness
-
-## Headline
-
-?
-
-### Summary
-
-?
-
-# Brand Color
-
-#229fa1
-
-# Possible Pallette
-
-#ecf4f5, #363535, #719999, #85d4d7, #545454, #948c90, #86cbd4, #2c7c74
 
 # Contact
 

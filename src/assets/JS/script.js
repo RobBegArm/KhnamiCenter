@@ -99,7 +99,7 @@ galleryImgBox.addEventListener(
 
 // Change the image according to active image number
 const changeImg = function () {
-  galleryImgBox.style.background = `url('/assets/content/images/Gallery-img-${currentImage}-original.jpg')`;
+  galleryImgBox.style.background = `url('/assets/content/images/gallery/Gallery-img-${currentImage}.jpg')`;
   galleryImgBox.classList.add("shade");
 };
 

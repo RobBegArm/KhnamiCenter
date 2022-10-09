@@ -60,6 +60,18 @@ Medium: 11px
   box-shadow: 0 0 0 0.8rem rgba(34, 159, 161, 0.5) !important;
 }
 
+:root {
+  /*Primary Color*/
+  --main-color: #229fa1;
+  /*Tints*/
+  --tint-90: #ecf4f5;
+  /*Shades*/
+  --shade-10: #1f8f91;
+  --shade-20: #1b7f81;
+  --shade-40: #145f61;
+  /*  */
+}
+
 html {
   /* def font-size:16px
     62.5% -> 1rem = 10px */
@@ -121,7 +133,7 @@ body {
 .header-link:active,
 .address-link:hover,
 .address-link:active {
-  color: #1f8f91;
+  color: var(--shade-10);
 }
 
 .address-link:link,

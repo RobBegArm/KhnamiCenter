@@ -7,6 +7,15 @@
   position: relative;
   font-size: 3rem;
   font-weight: 500;
+  max-width: 192rem !important;
+}
+
+.header-background {
+  height: 14.8rem;
+  width: 100vw;
+  z-index: -1;
+  position: absolute;
+  left: 0;
 }
 
 .header-nav,
@@ -43,7 +52,7 @@
 
 .header-icon {
   display: inline-block;
-  color: #1f8f91;
+  color: var(--shade-10);
   font-size: 3rem;
 }
 
@@ -52,9 +61,10 @@
 /* Hero Section */
 
 .header,
+.header-background,
 .section-hero,
 .section-gallery {
-  background-color: #ecf4f5;
+  background-color: var(--tint-90);
 }
 
 .hero-img {
@@ -75,7 +85,7 @@
 
 .hero-cta-btn:link,
 .hero-cta-btn:visited {
-  background-color: #229fa1;
+  background-color: var(--main-color);
   color: #fff;
   font-size: 3rem;
   font-weight: 500;
@@ -88,7 +98,7 @@
 
 .hero-cta-btn:hover,
 .hero-cta-btn:active {
-  background-color: #1f8f91;
+  background-color: var(--shade-10);
 }
 
 /* Cooperations Section */
@@ -126,12 +136,12 @@
 
 .services-main-icon {
   font-size: 16rem;
-  color: #229fa1;
+  color: var(--main-color);
   padding: 2rem 0 4rem 0;
 }
 
 .checkmark-icon {
-  color: #229fa1;
+  color: var(--main-color);
   padding: 0 1rem 0 0;
 }
 
@@ -157,7 +167,7 @@
 }
 
 .gallery-btn {
-  color: #229fa1;
+  color: var(--main-color);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -181,7 +191,6 @@
   border-radius: 50%;
   background-color: #fff;
   color: inherit;
-  /* color: #229fa1; */
 }
 
 .gallery-btn:hover,
@@ -189,7 +198,7 @@
 .gallery-nav-bullet:hover,
 .gallery-nav-bullet:active {
   cursor: pointer;
-  color: #1f8f91;
+  color: var(--shade-10);
 }
 
 .gallery-element {
@@ -222,7 +231,7 @@
   border-radius: 6px;
   z-index: 999;
   background-size: contain !important;
-  background: url("/assets/content/images/Gallery-img-1-original.jpg");
+  background: url("/assets/content/images/gallery/Gallery-img-1.jpg");
 }
 
 .gallery-nav {
@@ -238,7 +247,7 @@
 }
 
 .gallery-nav-bullet {
-  color: #229fa1;
+  color: var(--main-color);
 }
 
 .gallery-nav-icon {
@@ -276,7 +285,30 @@
   font-size: 1.6rem;
 }
 
-/* staff section */
+/* team section */
+
+.team-headline {
+  text-align: center;
+}
+
+.grid--team {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 5rem;
+}
+
+.team-member-box {
+  max-width: 40rem;
+  max-height: 36rem;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+}
+
+.team-member-img {
+  display: block;
+  border-radius: 50%;
+  height: 14rem;
+}
 
 /* cta section */
 
@@ -284,4 +316,4 @@
 
 /* Navigation */
 
-/* Sticky navigation */
+/* Sticky navigation */ ;
