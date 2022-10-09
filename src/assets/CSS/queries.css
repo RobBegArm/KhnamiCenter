@@ -18,12 +18,21 @@
     font-size: 2.4rem;
   }
 
+  .header-nav {
+    gap: 0.5rem;
+  }
+
+  .header-link--home {
+    margin-right: 1rem;
+  }
+
   .container {
     max-width: 110rem !important;
   }
 
   .header-address-text {
-    max-width: 21rem;
+    font-size: 1.6rem;
+    max-width: 27rem;
   }
 
   .heading-primary {
@@ -45,10 +54,10 @@
   }
 }
 
-/* Below 1200px (Landscape Tablets)
-@media (max-width: 75em) {
+/* Below 1104px (Landscape Tablets) */
+@media (max-width: 69em) {
   html {
-    /* 56.25% -> 1rem = 9px 
+    /*56.25% -> 1rem = 9px*/
     font-size: 56.25%;
   }
-} */
+}
