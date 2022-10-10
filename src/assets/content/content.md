@@ -13,15 +13,10 @@
 ---
 
 1. Beglaryan D., Head Of The Center
-2. Tantushyan R., Caregiver
-3. Suqiasyan K., Nurse
-4. Mazmanyan V., Family doctor
-5. Garakeshishyan S., Nurse
-6. Qocharyan S., Nurse
-7. Demirchyan E., Oncologist
-8. Nersisyan S., Senior Nurse
-9. Sirekyan G., Nurse
-10. Karapetyan E., Nurse
+2. Demirchyan E., Oncologist
+3. Mazmanyan V., Family doctor
+
+-- 8. Nersisyan S., Senior Nurse 3. Suqiasyan K., Nurse 5. Garakeshishyan S., Nurse 6. Qocharyan S., Nurse 9. Sirekyan G., Nurse 10. Karapetyan E., Nurse 2. Tantushyan R., Caregiver
 
 ---
 
@@ -40,6 +35,7 @@ CTA FORM
 # Page Responsiveness
 
 - Add media queries
+- Add sticky navbar
 
 # Languages
 
