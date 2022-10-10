@@ -24,6 +24,7 @@ Paragraph default: 1.6
 --- 02 COLORS
 
 - Primary Color: #229fa1
+- Secondry Color: #3776ffb3;
 
 - Tints: #ecf4f5
 - Shades: #1f8f91, #145f61, #1b7f81
@@ -64,13 +65,19 @@ Medium: 11px
   /*Primary Color*/
   --main-color: #229fa1;
   /*Tints*/
+  --tint-20: #4eb2b4;
   --tint-90: #ecf4f5;
   /*Shades*/
   --shade-10: #1f8f91;
   --shade-20: #1b7f81;
   --shade-30: #186f71;
   --shade-40: #145f61;
-  /*  */
+  --shade-80: #072020;
+  /* Secondary Color */
+  --secondary-color: #3776ff;
+  /*Shades*/
+  --secondary-shade-20: #2c5ecc;
+  --secondary-shade-30: #2753b3;
 }
 
 html {
@@ -111,6 +118,7 @@ body {
 
 /* BUTTONS */
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -197,6 +205,11 @@ body {
   align-items: center;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 /* TEXT */
 
 .center-text {
@@ -207,6 +220,10 @@ body {
 
 .margin-bot--sm {
   margin-bottom: 1.5rem;
+}
+
+.margin-bot--md {
+  margin-bottom: 3rem;
 }
 
 /* SHADOWS */

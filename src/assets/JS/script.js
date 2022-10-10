@@ -32,7 +32,7 @@ const galleryNavElArray = document.querySelectorAll(".gallery-nav-bullet");
 
 //Current Active image number and total images number
 let currentImage = 1;
-const totalImageNumber = 4;
+const totalImageNumber = 7;
 
 //Event Listeners for gallery arrows
 galleryButtonLeft.addEventListener("click", e => {

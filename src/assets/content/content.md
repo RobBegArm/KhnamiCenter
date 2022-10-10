@@ -1,28 +1,26 @@
 # Page Structure
 
 [DONE] Logo + Navigation [also adress and call button]
--add language select + support
-[DONE] Hero [headline + hero img + cta button]
-[DONE] Cooperation with
-[DONE] Services
 
-- Gallery [images of rooms]
+- add language select button
+  [DONE] Hero [headline + hero img + cta button]
+  [DONE] Cooperation with
+  [DONE] Services
+  [DONE] [images of rooms]
   [DONE] Testimonials
   [DONE] Staff
+  [DONE] Cta
+
+- Footer
 
 ---
 
-- Cta
-
-CTA FORM
-
-- Hivandi Anun
-- Hivandi Tariq
-- Axtoroshum
-- Contacti Anun
-- Contact Phone Number
-
-- Footer
+- logo
+- facebook link
+- contact (address + phone number + email)
+- language select
+- copyright
+-
 
 # Page Responsiveness
 
@@ -33,6 +31,7 @@ CTA FORM
 
 - Translate To Russian
 - Translate to Armenian
+- Support language change
 
 # Deploy
 

@@ -77,16 +77,24 @@
         <!-- header nav links -->
         <a
           href="#section_services"
-          class="btn header-link header-link--services"
+          class="btn header-link header-link--services margin-bot--md"
           >Services</a
         >
-        <a href="#section_gallery" class="btn header-link header-link--gallery"
+        <a
+          href="#section_gallery"
+          class="btn header-link header-link--gallery margin-bot--md"
           >Gallery</a
         >
-        <a href="#section_team" class="btn header-link header-link--team"
+        <a
+          href="#section_team"
+          class="btn header-link header-link--team margin-bot--md"
           >Team</a
         >
-        <a href="#" class="btn header-link header-link--contact">Contact</a>
+        <a
+          href="#section_cta"
+          class="btn header-link header-link--contact margin-bot--md"
+          >Contact</a
+        >
       </nav>
       <!-- header contact links -->
       <div class="header-contact">
@@ -135,7 +143,7 @@
               adult population of Yerevan and the surrounding regions.
             </p>
             <!-- hero cta -->
-            <a href="#" class="btn hero-cta-btn shadow--animated"
+            <a href="#section_cta" class="btn hero-cta-btn shadow--animated"
               >Book a free consultation</a
             >
           </div>
@@ -382,6 +390,24 @@
                 class="gallery-nav-icon"
               ></ion-icon>
             </li>
+            <li class="gallery-nav-bullet" id="gallery_bullet_5">
+              <ion-icon
+                name="ellipse-outline"
+                class="gallery-nav-icon"
+              ></ion-icon>
+            </li>
+            <li class="gallery-nav-bullet" id="gallery_bullet_6">
+              <ion-icon
+                name="ellipse-outline"
+                class="gallery-nav-icon"
+              ></ion-icon>
+            </li>
+            <li class="gallery-nav-bullet" id="gallery_bullet_7">
+              <ion-icon
+                name="ellipse-outline"
+                class="gallery-nav-icon"
+              ></ion-icon>
+            </li>
           </ul>
         </nav>
         <!-- testimonials container -->
@@ -447,7 +473,7 @@
         <!-- team members -->
         <div class="container grid--team">
           <div class="grid--team-row grid--team-row-padded grid--3-cols">
-            <div class="team-member-box">
+            <div class="team-member-box flex-column">
               <div class="img-box margin-bot--sm">
                 <img
                   src="./assets/content/images/team/1BeglaryanD.jpg"
@@ -458,7 +484,7 @@
               <p class="team-member-name">Beglaryan D.</p>
               <p class="team-member-title">Head of the center</p>
             </div>
-            <div class="team-member-box">
+            <div class="team-member-box flex-column">
               <div class="img-box margin-bot--sm">
                 <img
                   src="./assets/content/images/team/7DemirchyanE.jpg"
@@ -469,7 +495,7 @@
               <p class="team-member-name">Demirchyan E.</p>
               <p class="team-member-title">Oncologist</p>
             </div>
-            <div class="team-member-box">
+            <div class="team-member-box flex-column">
               <div class="img-box margin-bot--sm">
                 <img
                   src="./assets/content/images/team/4MazmanyanV.jpg"
@@ -482,7 +508,7 @@
             </div>
           </div>
           <div class="grid--team-row grid--4-cols">
-            <div class="team-member-box">
+            <div class="team-member-box flex-column">
               <div class="img-box margin-bot--sm">
                 <img
                   src="./assets/content/images/team/8NersisyanS.jpg"
@@ -493,7 +519,7 @@
               <p class="team-member-name">Nersisyan S.</p>
               <p class="team-member-title">Senior Nurse</p>
             </div>
-            <div class="team-member-box">
+            <div class="team-member-box flex-column">
               <div class="img-box margin-bot--sm">
                 <img
                   src="./assets/content/images/team/3SuqiasyanK.jpg"
@@ -504,7 +530,7 @@
               <p class="team-member-name">Suqiasyan K.</p>
               <p class="team-member-title">Nurse</p>
             </div>
-            <div class="team-member-box">
+            <div class="team-member-box flex-column">
               <div class="img-box margin-bot--sm">
                 <img
                   src="./assets/content/images/team/9Sirekyan.jpg"
@@ -515,7 +541,7 @@
               <p class="team-member-name">Sirekyan G.</p>
               <p class="team-member-title">Nurse</p>
             </div>
-            <div class="team-member-box">
+            <div class="team-member-box flex-column">
               <div class="img-box margin-bot--sm">
                 <img
                   src="./assets/content/images/team/6QocharyanS.jpg"
@@ -528,7 +554,7 @@
             </div>
           </div>
           <div class="grid--team-row grid--team-row-padded grid--3-cols">
-            <div class="team-member-box">
+            <div class="team-member-box flex-column">
               <div class="img-box margin-bot--sm">
                 <img
                   src="./assets/content/images/team/5GarakeshishyanS.jpg"
@@ -539,7 +565,7 @@
               <p class="team-member-name">Garakeshishyan S.</p>
               <p class="team-member-title">Nurse</p>
             </div>
-            <div class="team-member-box">
+            <div class="team-member-box flex-column">
               <div class="img-box margin-bot--sm">
                 <img
                   src="./assets/content/images/team/10Karapetyan.jpg"
@@ -550,7 +576,7 @@
               <p class="team-member-name">Karapetyan E.</p>
               <p class="team-member-title">Nurse</p>
             </div>
-            <div class="team-member-box">
+            <div class="team-member-box flex-column">
               <div class="img-box margin-bot--sm">
                 <img
                   src="./assets/content/images/team/2TantushyanR.jpg"
@@ -565,15 +591,113 @@
         </div>
       </section>
       <!-- CTA -->
-      <section class="section-cta" id="section_cta">
-        <!-- cta headline -->
-        <div class="container cta-headline padding-bot-lg1">
-          <h2 class="heading-secondary">CTA</h2>
+      <section class="section-cta padding--section" id="section_cta">
+        <!-- cta box -->
+        <div class="container cta-box flex-column shadow--dark--strong">
+          <!-- cta text -->
+          <div class="cta-text-box margin-bot--md">
+            <p class="cta-headline margin-bot--md">
+              Book your free consultation now!
+            </p>
+            <p class="cta-description margin-bot--md">
+              Our team will contact you as soon as possible, and help you
+              organize the perfect care conditions for your loved one.
+            </p>
+          </div>
+          <form class="cta-form grid grid--3-cols" name="book-consultation">
+            <!-- patient name input -->
+            <div class="form-element">
+              <label for="patient_name">Patient Name:</label>
+              <input
+                id="patient_name"
+                name="patient_name"
+                type="text"
+                placeholder="Hakob Hakobyan"
+                required
+              />
+            </div>
+            <!-- patient age input -->
+            <div class="form-element">
+              <label for="patient_age">Patient Age:</label>
+              <input
+                id="patient_age"
+                name="patient_age"
+                type="number"
+                placeholder="44"
+                required
+              />
+            </div>
+            <!-- patient diagnosis input -->
+            <div class="form-element">
+              <label for="patient_diagnosis">Patient Diagnosis:</label>
+              <input
+                id="patient_diagnosis"
+                name="patient_diagnosis"
+                type="text"
+                placeholder="Oncology"
+                required
+              />
+            </div>
+            <!-- contact name input -->
+            <div class="form-element">
+              <label for="contact-name">Contact Name:</label>
+              <input
+                id="contact-name"
+                name="contact-name"
+                type="text"
+                placeholder="Armine Hakobyan"
+                required
+              />
+            </div>
+            <!-- contact phone number input -->
+            <div class="form-element">
+              <label for="contact-number">Contact Phone Number:</label>
+              <input
+                id="contact-number"
+                name="contact-number"
+                type="tel"
+                placeholder="099445566"
+                pattern="([0]{1}[1-9]{2}[0-9]{6})|([+]{1}[0-9]{7})|([+]{1}[0-9]{8})|([+]{1}[0-9]{9})|([+]{1}[0-9]{10})|([+]{1}[0-9]{11})"
+                required
+              />
+            </div>
+            <!-- contact email input -->
+            <div class="form-element">
+              <label for="contact-email">Contact E-mail:</label>
+              <input
+                id="contact-email"
+                name="contact-email"
+                type="email"
+                placeholder="mail@mail.com"
+                required
+              />
+            </div>
+            <!-- submit form -->
+            <div class="btn--form-box">
+              <button type="submit" class="btn btn--form">Book Now</button>
+            </div>
+          </form>
         </div>
       </section>
     </main>
     <!-- FOOTER -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-logo-and-copyright flex-column">
+          <div class="footer-logo-box margin-bot--sm">
+            <a href="#" class="btn footer-link--home"
+              ><img
+                src="./assets/content/images/logo.png"
+                alt="Khnami Logo"
+                class="header-logo-img"
+            /></a>
+          </div>
+          <div class="footer-copyright-box">
+            <p class="copyright">Copyright &copy; 2022 by Khnami Center.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- icon pack -->
     <script
       type="module"
