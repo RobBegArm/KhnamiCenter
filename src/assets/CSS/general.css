@@ -236,12 +236,8 @@ body {
   padding-bottom: 6rem;
 }
 
-.padding--section-sm {
-  padding: 4.8rem 0 9.6rem 0;
-}
-
 .padding--section {
-  padding: 4.8rem 0 2.4rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 /* Animation */
