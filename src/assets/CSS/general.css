@@ -68,6 +68,7 @@ Medium: 11px
   /*Shades*/
   --shade-10: #1f8f91;
   --shade-20: #1b7f81;
+  --shade-30: #186f71;
   --shade-40: #145f61;
   /*  */
 }
@@ -133,7 +134,7 @@ body {
 .header-link:active,
 .address-link:hover,
 .address-link:active {
-  color: var(--shade-10);
+  color: var(--shade-30);
 }
 
 .address-link:link,

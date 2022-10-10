@@ -8,15 +8,7 @@
 
 - Gallery [images of rooms]
   [DONE] Testimonials
-- Staff
-
----
-
-1. Beglaryan D., Head Of The Center
-2. Demirchyan E., Oncologist
-3. Mazmanyan V., Family doctor
-
--- 8. Nersisyan S., Senior Nurse 3. Suqiasyan K., Nurse 5. Garakeshishyan S., Nurse 6. Qocharyan S., Nurse 9. Sirekyan G., Nurse 10. Karapetyan E., Nurse 2. Tantushyan R., Caregiver
+  [DONE] Staff
 
 ---
 
