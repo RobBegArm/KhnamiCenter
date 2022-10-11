@@ -411,15 +411,23 @@
 }
 
 .footer-content {
-  max-width: 150rem;
+  max-width: 110rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+.footer-logo-and-copyright {
+  gap: 3rem;
 }
 
 .footer-logo-box {
-  height: 12rem;
+  margin: 0 auto;
+  height: 13rem;
 }
 
 .footer-link--home {
   height: inherit;
+  padding: 1rem;
 }
 
 .footer-copyright-box {
@@ -428,6 +436,39 @@
 
 .copyright {
   font-size: 1.4rem;
+}
+
+.footer-contact {
+  gap: 1.5rem;
+  font-size: 1.8rem;
+  color: #555;
+}
+
+.footer-contact-headline,
+.social-media-headline {
+  margin: 2rem 0;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.social-media-link {
+  font-size: 7rem;
+}
+
+.social-media-link:link,
+.social-media-link:visited {
+  color: var(--secondary-shade-20);
+}
+
+.social-media-link:hover,
+.social-media-link:active {
+  color: var(--secondary-shade-30);
+}
+
+.social-media-box,
+.footer-contact {
+  padding-top: 2rem;
 }
 
 /* Navigation */

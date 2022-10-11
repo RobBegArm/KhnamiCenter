@@ -682,9 +682,23 @@
     </main>
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="container footer-content">
+      <div class="container footer-content grid">
+        <!-- facebook -->
+        <div class="social-media-box flex-column">
+          <p class="social-media-headline">Follow Us On Facebook!</p>
+          <div class="facebook-link-box flex--centered">
+            <a
+              href="#"
+              class="social-media-link"
+              onclick='window.open("https://www.facebook.com/Khnamicenter");return false;'
+            >
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <!-- logo and copyright -->
         <div class="footer-logo-and-copyright flex-column">
-          <div class="footer-logo-box margin-bot--sm">
+          <div class="footer-logo-box">
             <a href="#" class="btn footer-link--home"
               ><img
                 src="./assets/content/images/logo.png"
@@ -693,8 +707,17 @@
             /></a>
           </div>
           <div class="footer-copyright-box">
-            <p class="copyright">Copyright &copy; 2022 by Khnami Center.</p>
+            <p class="copyright">Copyright &copy; 2022 by Khnami Center</p>
           </div>
+        </div>
+        <!-- adress -->
+        <div class="footer-contact flex-column">
+          <p class="footer-contact-headline">Contact</p>
+          <p class="footer-contact-address">
+            Gusan Sherami 2, Armenikum building, 3rd floor, Yerevan
+          </p>
+          <p class="footer-contact-phone">(+374) 93 577539</p>
+          <p class="footer-contact-email">khnamicenter@yahoo.com</p>
         </div>
       </div>
     </footer>

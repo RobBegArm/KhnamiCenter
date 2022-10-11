@@ -16,11 +16,10 @@
 ---
 
 - logo
-- facebook link
-- contact (address + phone number + email)
-- language select
-- copyright
--
+
+* language select
+
+*
 
 # Page Responsiveness
 
