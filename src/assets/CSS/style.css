@@ -32,6 +32,35 @@
   gap: 1.4rem;
 }
 
+/* Dropdown Menu */
+
+.header-lang-select-box {
+  margin-left: 4rem;
+  font-size: 2.8rem;
+  color: #363535;
+}
+
+.lang-select-container {
+  position: relative;
+  background-color: #a7d9d9;
+}
+
+.header-lang-select-dropdown {
+  position: absolute;
+  left: -9rem;
+}
+
+.header-language {
+  height: 2.8rem;
+  gap: 1rem;
+}
+
+.flag-img {
+  height: inherit;
+}
+
+/* Header Links */
+
 .header-link--home {
   margin-right: 5rem;
 }
