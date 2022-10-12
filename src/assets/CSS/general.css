@@ -66,6 +66,8 @@ Medium: 11px
   --main-color: #229fa1;
   /*Tints*/
   --tint-20: #4eb2b4;
+  --tint-60: #a7d9d9;
+  --tint-70: #bde2e3;
   --tint-90: #ecf4f5;
   /*Shades*/
   --shade-10: #1f8f91;
@@ -224,6 +226,10 @@ body {
 
 .margin-bot--md {
   margin-bottom: 3rem;
+}
+
+.padding-top--sm {
+  padding-top: 2rem;
 }
 
 /* SHADOWS */

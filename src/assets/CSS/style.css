@@ -32,31 +32,68 @@
   gap: 1.4rem;
 }
 
-/* Dropdown Menu */
+/* language select dropdown */
 
-.header-lang-select-box {
-  margin-left: 4rem;
-  font-size: 2.8rem;
+.lang-select-dropdown-btn,
+.lang-select-dropdown-content {
+  font-family: inherit;
+}
+
+.lang-select-dropdown-btn {
+  background-color: var(--tint-90);
   color: #363535;
+  padding: 1.6rem;
+  font-size: 2.8rem;
+  border: none;
+  gap: 0.3rem;
 }
 
-.lang-select-container {
+.lang-select-dropdown {
   position: relative;
-  background-color: #a7d9d9;
+  display: inline-block;
 }
 
-.header-lang-select-dropdown {
+.lang-select-dropdown-content {
+  display: none;
   position: absolute;
-  left: -9rem;
+  background-color: var(--tint-90);
+  min-width: 20.5rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
-.header-language {
-  height: 2.8rem;
-  gap: 1rem;
+.lang-select-dropdown-content a {
+  display: block;
+  color: #111;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  font-size: 2.6rem;
+}
+
+.lang-select-dropdown-content a:hover {
+  background-color: var(--tint-70);
+}
+
+.lang-select-dropdown:hover .lang-select-dropdown-content {
+  display: block;
+}
+
+.lang-select-dropdown:hover .lang-select-dropdown-btn {
+  background-color: var(--tint-60);
+}
+
+#lang_arm {
+  font-size: 3rem;
+}
+
+.lang {
+  gap: 1.4rem;
+  position: relative;
 }
 
 .flag-img {
-  height: inherit;
+  height: 2.4rem;
+  margin-right: 0.5rem;
 }
 
 /* Header Links */
@@ -435,14 +472,14 @@
 /* Footer */
 
 .footer {
-  padding: 12rem 0 6rem 0;
+  padding: 10rem 0 12rem 0;
   background-color: var(--tint-90);
 }
 
 .footer-content {
   max-width: 110rem;
   display: grid;
-  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
 }
 
 .footer-logo-and-copyright {
@@ -473,8 +510,7 @@
   color: #555;
 }
 
-.footer-contact-headline,
-.social-media-headline {
+.footer-headline {
   margin: 2rem 0;
   font-size: 2.2rem;
   font-weight: 600;
@@ -493,11 +529,6 @@
 .social-media-link:hover,
 .social-media-link:active {
   color: var(--secondary-shade-30);
-}
-
-.social-media-box,
-.footer-contact {
-  padding-top: 2rem;
 }
 
 /* Navigation */

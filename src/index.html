@@ -95,21 +95,37 @@
           class="btn header-link header-link--contact margin-bot--md"
           >Contact</a
         >
-        <!-- language select -->
-        <div class="lang-select-container">
-          <div class="header-lang-select-box flex--centered margin-bot--md">
-            <p class="lang-select-text">EN</p>
-            <ion-icon name="chevron-down-outline"></ion-icon>
-          </div>
-          <div class="header-lang-select-dropdown">
-            <div class="header-language flex--centered">
+        <!-- language select dropdown-->
+        <div class="lang-select-dropdown margin-bot--md">
+          <button class="lang-select-dropdown-btn flex--centered">
+            <ion-icon name="caret-down-outline"></ion-icon>
+            <p>EN</p>
+          </button>
+          <div class="lang-select-dropdown-content">
+            <a href="#" class="lang flex--centered" id="lang_arm">
+              <img
+                src="./assets/content/images/util/ARMflag.svg"
+                alt="ARM flag"
+                class="flag-img"
+              />
+              Հայերեն</a
+            >
+            <a href="#" class="lang flex--centered" id="lang_ru">
+              <img
+                src="./assets/content/images/util/RUflag.svg"
+                alt="RU flag"
+                class="flag-img"
+              />
+              Русский</a
+            >
+            <a href="#" class="lang flex--centered" id="lang_en">
               <img
                 src="./assets/content/images/util/UKflag.svg"
                 alt="UK flag"
                 class="flag-img"
               />
-              <p class="language-name">English</p>
-            </div>
+              English</a
+            >
           </div>
         </div>
       </nav>
@@ -701,8 +717,8 @@
     <footer class="footer">
       <div class="container footer-content grid">
         <!-- facebook -->
-        <div class="social-media-box flex-column">
-          <p class="social-media-headline">Follow Us On Facebook!</p>
+        <div class="social-media-box flex-column padding-top--sm">
+          <p class="footer-headline center-text">Follow us on Facebook!</p>
           <div class="facebook-link-box flex--centered">
             <a
               href="#"
@@ -728,13 +744,50 @@
           </div>
         </div>
         <!-- adress -->
-        <div class="footer-contact flex-column">
-          <p class="footer-contact-headline">Contact</p>
+        <div class="footer-contact flex-column padding-top--sm">
+          <p class="footer-headline">Contact</p>
           <p class="footer-contact-address">
             Gusan Sherami 2, Armenikum building, 3rd floor, Yerevan
           </p>
           <p class="footer-contact-phone">(+374) 93 577539</p>
           <p class="footer-contact-email">khnamicenter@yahoo.com</p>
+        </div>
+        <!-- language select -->
+        <div class="footer-lang-select flex-column padding-top--sm">
+          <p class="footer-headline">Language</p>
+          <!-- language select dropdown-->
+          <div class="lang-select-dropdown margin-bot--md">
+            <button class="lang-select-dropdown-btn flex--centered">
+              <ion-icon name="caret-down-outline"></ion-icon>
+              <p>EN</p>
+            </button>
+            <div class="lang-select-dropdown-content">
+              <a href="#" class="lang flex--centered" id="lang_arm">
+                <img
+                  src="./assets/content/images/util/ARMflag.svg"
+                  alt="ARM flag"
+                  class="flag-img"
+                />
+                Հայերեն</a
+              >
+              <a href="#" class="lang flex--centered" id="lang_ru">
+                <img
+                  src="./assets/content/images/util/RUflag.svg"
+                  alt="RU flag"
+                  class="flag-img"
+                />
+                Русский</a
+              >
+              <a href="#" class="lang flex--centered" id="lang_en">
+                <img
+                  src="./assets/content/images/util/UKflag.svg"
+                  alt="UK flag"
+                  class="flag-img"
+                />
+                English</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </footer>
