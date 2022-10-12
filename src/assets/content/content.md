@@ -1,25 +1,15 @@
 # Page Structure
 
 [DONE] Logo + Navigation [also adress and call button]
-
-- add language select button
-  [DONE] Hero [headline + hero img + cta button]
-  [DONE] Cooperation with
-  [DONE] Services
-  [DONE] [images of rooms]
-  [DONE] Testimonials
-  [DONE] Staff
-  [DONE] Cta
-
-- Footer
-
----
-
-- logo
-
-* language select
-
-*
+[DONE] add language select button
+[DONE] Hero [headline + hero img + cta button]
+[DONE] Cooperation with
+[DONE] Services
+[DONE] [images of rooms]
+[DONE] Testimonials
+[DONE] Staff
+[DONE] Cta
+[DONE] Footer
 
 # Page Responsiveness
 
@@ -50,14 +40,6 @@ department open 24/7
 
 The Khnami Palliative Center was founded in November 2019, and licensed by the Ministry of Health of Armenia in June 2020. Already in July 2020, the center accepted its first patients. The Khnami Center provides palliative care to the elderly and adult population of Yerevan and the surrounding regions.
 
-# Contact
-
-Address: Gusan Sherami 2, Erevan, Armenia, 3rd hark Armenikumi shenq
-Phone: +374 93 577539
-Email: khnamicenter@yahoo.com
-
-social: Facebook
-
 # Testimonials
 
 Rating · 4.8 (19 Reviews) Facebook
@@ -76,7 +58,3 @@ Irina Kaz-
 
 Sirush Apresyan-
 Պրոֆեսիոնալ անձնակազմ, հոգատար վերաբերմունք։ Շատ կարևոր աշխատանք եք կատարում` հիվանդների կյանքի որակը բարձրացնելու համար։Շնորհակալ եմ
-
-# Gallery
-
-Images of hospital
