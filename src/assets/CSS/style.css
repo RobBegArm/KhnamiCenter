@@ -82,13 +82,13 @@
   background-color: var(--tint-60);
 }
 
-#lang_arm {
-  font-size: 3rem;
-}
-
-.lang {
+.lang-select {
   gap: 1.4rem;
   position: relative;
+}
+
+.lang-select--arm {
+  font-size: 3rem !important;
 }
 
 .flag-img {

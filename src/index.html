@@ -61,6 +61,11 @@
     />
     <title>Khnami &mdash; Palliative care center</title>
   </head>
+  <style>
+    .invisible {
+      display: none;
+    }
+  </style>
   <body>
     <!-- HEADER -->
     <div class="header-background"></div>
@@ -78,31 +83,41 @@
         <a
           href="#section_services"
           class="btn header-link header-link--services margin-bot--md"
-          >Services</a
-        >
+          ><p class="language language--en">Services</p>
+          <p class="language language--ru invisible">Услуги</p>
+          <p class="language language--arm invisible">Ծառայություններ</p>
+        </a>
         <a
           href="#section_gallery"
           class="btn header-link header-link--gallery margin-bot--md"
-          >Gallery</a
+          ><p class="language language--en">Gallery</p>
+          <p class="language language--ru invisible">Галерея</p>
+          <p class="language language--arm invisible">Պատկերասրահ</p></a
         >
         <a
           href="#section_team"
           class="btn header-link header-link--team margin-bot--md"
-          >Team</a
+          ><p class="language language--en">Team</p>
+          <p class="language language--ru invisible">Команда</p>
+          <p class="language language--arm invisible">Թիմ</p></a
         >
         <a
           href="#section_cta"
           class="btn header-link header-link--contact margin-bot--md"
-          >Contact</a
+          ><p class="language language--en">Contact</p>
+          <p class="language language--ru invisible">Контакт</p>
+          <p class="language language--arm invisible">Կապ</p></a
         >
         <!-- language select dropdown-->
         <div class="lang-select-dropdown margin-bot--md">
           <button class="lang-select-dropdown-btn flex--centered">
             <ion-icon name="caret-down-outline"></ion-icon>
-            <p>EN</p>
+            <p class="language language--en">EN</p>
+            <p class="language language--ru invisible">РУC</p>
+            <p class="language language--arm invisible">ՀԱՅ</p>
           </button>
           <div class="lang-select-dropdown-content">
-            <a href="#" class="lang flex--centered" id="lang_arm">
+            <a href="#" class="lang-select lang-select--arm flex--centered">
               <img
                 src="./assets/content/images/util/ARMflag.svg"
                 alt="ARM flag"
@@ -110,7 +125,7 @@
               />
               Հայերեն</a
             >
-            <a href="#" class="lang flex--centered" id="lang_ru">
+            <a href="#" class="lang-select lang-select--ru flex--centered">
               <img
                 src="./assets/content/images/util/RUflag.svg"
                 alt="RU flag"
@@ -118,7 +133,7 @@
               />
               Русский</a
             >
-            <a href="#" class="lang flex--centered" id="lang_en">
+            <a href="#" class="lang-select lang-select--en flex--centered">
               <img
                 src="./assets/content/images/util/UKflag.svg"
                 alt="UK flag"
@@ -762,7 +777,7 @@
               <p>EN</p>
             </button>
             <div class="lang-select-dropdown-content">
-              <a href="#" class="lang flex--centered" id="lang_arm">
+              <a href="#" class="lang-select lang-select--arm flex--centered">
                 <img
                   src="./assets/content/images/util/ARMflag.svg"
                   alt="ARM flag"
@@ -770,7 +785,7 @@
                 />
                 Հայերեն</a
               >
-              <a href="#" class="lang flex--centered" id="lang_ru">
+              <a href="#" class="lang-select lang-select--ru flex--centered">
                 <img
                   src="./assets/content/images/util/RUflag.svg"
                   alt="RU flag"
@@ -778,7 +793,7 @@
                 />
                 Русский</a
               >
-              <a href="#" class="lang flex--centered" id="lang_en">
+              <a href="#" class="lang-select lang-select--en flex--centered">
                 <img
                   src="./assets/content/images/util/UKflag.svg"
                   alt="UK flag"
@@ -807,5 +822,6 @@
     ></script>
     <!-- js -->
     <script defer src="./assets/JS/script.js"></script>
+    <script defer src="./assets/JS/translate.js"></script>
   </body>
 </html>
