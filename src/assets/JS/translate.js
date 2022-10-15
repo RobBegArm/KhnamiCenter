@@ -33,15 +33,17 @@ const plcEN = ["Hakob Hakobyan", "Oncology", "Armine Hakobyan"];
 const plcRU = ["Акоп Акопян", "Онкология", "Армине Акопян"];
 const plcARM = ["Հակոբ Հակոբյան", "Ուռուցքաբանություն", "Արմինե Հակոբյան"];
 
-txtPlcInputs.forEach((el, i) => {});
-
-const translatePlaceholders = function () {};
+const translatePlaceholders = function (placeholders) {
+  txtPlcInputs.forEach((el, i) => {
+    el.placeholder = placeholders[i];
+  });
+};
 
 // Always have an active language, which refers to according array with text elements
 let activeTextElements = englishLanguage;
 
 // Translates the page to selected language
-const translatePage = function (newTextElements, newTitle) {
+const translatePage = function (newTextElements, newTitle, newPlaceholders) {
   // Check if language is already active
   if (newTextElements == activeTextElements) {
     return;
@@ -54,24 +56,27 @@ const translatePage = function (newTextElements, newTitle) {
     el.classList.remove("invisible");
   });
   activeTextElements = newTextElements;
+  //Translate title
   title.innerHTML = newTitle;
+  //Translate placeholders
+  translatePlaceholders(newPlaceholders);
 };
 
 //Translates to english
 langSelectButtonsEN.forEach(el => {
   el.addEventListener("click", e => {
-    translatePage(englishLanguage, titleEN);
+    translatePage(englishLanguage, titleEN, plcEN);
   });
 });
 //Translates to russian
 langSelectButtonsRU.forEach(el => {
   el.addEventListener("click", e => {
-    translatePage(russianLanguage, titleRU);
+    translatePage(russianLanguage, titleRU, plcRU);
   });
 });
 //Translates to armenian
 langSelectButtonsARM.forEach(el => {
   el.addEventListener("click", e => {
-    translatePage(armenianLanguage, titleARM);
+    translatePage(armenianLanguage, titleARM, plcARM);
   });
 });
