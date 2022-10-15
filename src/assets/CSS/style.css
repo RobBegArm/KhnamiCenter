@@ -137,6 +137,14 @@
   background-color: var(--tint-90);
 }
 
+.section-hero {
+  padding: 4rem 0 14rem 0;
+}
+
+.hero {
+  max-width: 150rem;
+}
+
 .hero-img {
   width: 100%;
   border-radius: 6px;
@@ -145,6 +153,7 @@
 .hero-text-box {
   text-align: center;
   row-gap: 4rem;
+  max-width: 55rem;
 }
 
 .hero-description {
