@@ -1047,6 +1047,7 @@
                 <p class="language language--arm invisible">Հիվանդի Անունը:</p>
               </label>
               <input
+                class="txtPlcInput"
                 id="patient_name"
                 name="patient_name"
                 type="text"
@@ -1079,6 +1080,7 @@
                 </p>
               </label>
               <input
+                class="txtPlcInput"
                 id="patient_diagnosis"
                 name="patient_diagnosis"
                 type="text"
@@ -1088,14 +1090,15 @@
             </div>
             <!-- contact name input -->
             <div class="form-element">
-              <label for="contact-name">
+              <label for="contact_name">
                 <p class="language language--en">Contact Name:</p>
                 <p class="language language--ru invisible">Контактное Лицо:</p>
                 <p class="language language--arm invisible">Ձեր Անունը։</p>
               </label>
               <input
-                id="contact-name"
-                name="contact-name"
+                class="txtPlcInput"
+                id="contact_name"
+                name="contact_name"
                 type="text"
                 placeholder="Armine Hakobyan"
                 required
@@ -1103,7 +1106,7 @@
             </div>
             <!-- contact phone number input -->
             <div class="form-element">
-              <label for="contact-number">
+              <label for="contact_number">
                 <p class="language language--en">Contact Phone Number:</p>
                 <p class="language language--ru invisible">
                   Контактный Телефон:
@@ -1113,8 +1116,8 @@
                 </p>
               </label>
               <input
-                id="contact-number"
-                name="contact-number"
+                id="contact_number"
+                name="contact_number"
                 type="tel"
                 placeholder="099445566"
                 pattern="([0]{1}[1-9]{2}[0-9]{6})|([+]{1}[0-9]{7})|([+]{1}[0-9]{8})|([+]{1}[0-9]{9})|([+]{1}[0-9]{10})|([+]{1}[0-9]{11})"
@@ -1123,14 +1126,14 @@
             </div>
             <!-- contact email input -->
             <div class="form-element">
-              <label for="contact-email">
+              <label for="contact_email">
                 <p class="language language--en">Contact E-mail:</p>
-                <p class="language language--ru invisible">Почтовый Ящик:</p>
+                <p class="language language--ru invisible">Почтовый Адрес:</p>
                 <p class="language language--arm invisible">Ձեր է-փոստը:</p>
               </label>
               <input
-                id="contact-email"
-                name="contact-email"
+                id="contact_email"
+                name="contact_email"
                 type="email"
                 placeholder="mail@mail.com"
                 required
