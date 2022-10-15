@@ -64,7 +64,7 @@
   </head>
   <style>
     .invisible {
-      display: none;
+      display: none !important;
     }
   </style>
   <body>
@@ -103,7 +103,7 @@
           <p class="language language--arm invisible">Թիմ</p></a
         >
         <a
-          href="#section_cta"
+          href="#footer"
           class="btn header-link header-link--contact margin-bot--md"
           ><p class="language language--en">Contact</p>
           <p class="language language--ru invisible">Контакт</p>
@@ -190,13 +190,13 @@
           <div class="hero-text-box grid">
             <!-- hero headline -->
             <h1 class="heading-primary language--en">
-              Palliative care with kindness and dignity.
+              Palliative care with dignity and kindness.
             </h1>
             <h1 class="heading-primary language language--ru invisible">
-              Паллиативная помощь с добротой и достоинством.
+              Паллиативная помощь с достоинством и добротой.
             </h1>
             <h1 class="heading-primary language language--arm invisible">
-              Պալիատիվ խնամք՝ լի բարությամբ և արժանապատվությամբ
+              Պալիատիվ խնամք՝ արժանավայել և լի բարությամբ 
             </h1>
             <!-- hero description -->
             <p class="hero-description language language--en">
@@ -205,21 +205,29 @@
             </p>
             <p class="hero-description language language--ru invisible">
               Центр «Хнами» оказывает паллиативную помощь пожилому и взрослому
-              населению Еревана и близлежащих районов.
+              населению Еревана и близких районов.
             </p>
             <p class="hero-description language language--arm invisible">
               Խնամի կենտրոնը ցուցաբերում է պալիատիվ օգնություն Երևանի և հարակից
               մարզերի տարեց և չափահաս բնակչությանը։
             </p>
             <!-- hero cta -->
-            <a href="#section_cta" class="btn hero-cta-btn shadow--animated">
-              <p class="language language--en">Book a free consultation</p>
-              <p class="language language--ru invisible">
-                Записаться на бесплатную консультацию
-              </p>
-              <p class="language language--arm invisible">
-                Ամրագրել անվճար խորհրդատվություն
-              </p></a
+            <a
+              href="#section_cta"
+              class="btn hero-cta-btn shadow--animated language language--en"
+            
+            ><p>Book a free consultation</p>
+            <a
+              href="#section_cta"
+              class="btn hero-cta-btn shadow--animated language language--ru invisible"
+            >
+              <p>Записаться на бесплатную консультацию</p></a
+            >
+            <a
+              href="#section_cta"
+              class="btn hero-cta-btn shadow--animated language language--arm invisible"
+            >
+              <p>Ամրագրել անվճար խորհրդատվություն</p></a
             >
           </div>
           <div class="hero-img-box">
@@ -885,12 +893,12 @@
                   class="team-member-img shadow--dark"
                 />
               </div>
-              <p class="team-member-name language language--en">Sirekyan G.</p>
+              <p class="team-member-name language language--en">Sirekanyan G.</p>
               <p class="team-member-name language language--ru invisible">
-                Сирекян Г.
+                Сиреканян Г.
               </p>
               <p class="team-member-name language language--arm invisible">
-                Սիրեկյան Գ.
+                Սիրեկանյան Գ.
               </p>
               <p class="team-member-title language language--en">Nurse</p>
               <p class="team-member-title language language--ru invisible">
@@ -967,12 +975,12 @@
               <p class="team-member-name language language--arm invisible">
                 Կարապետյան Է.
               </p>
-              <p class="team-member-title language language--en">Nurse</p>
+              <p class="team-member-title language language--en">Caregiver</p>
               <p class="team-member-title language language--ru invisible">
-                Медсестра
+                Сиделка
               </p>
               <p class="team-member-title language language--arm invisible">
-                Բուժքույր
+                Խնամող
               </p>
             </div>
             <div class="team-member-box flex-column">
@@ -1024,19 +1032,19 @@
             </p>
             <p class="cta-description margin-bot--md language language--en">
               Our team will contact you as soon as possible, and help you
-              organize the perfect care conditions for your loved one.
+              organize professional care for your loved one.
             </p>
             <p
               class="cta-description margin-bot--md language language--ru invisible"
             >
               Наша команда свяжется с вами в кратчайшие сроки и поможет
-              организовать идеальные условия ухода за вашим близким.
+              организовать профессиональный уход за вашим близким.
             </p>
             <p
               class="cta-description margin-bot--md language language--arm invisible"
             >
               Մեր թիմը հնարավորինս շուտ կկապվի ձեզ հետ և կօգնի ձեզ կազմակերպել
-              ձեր հարազատի խնամքի կատարյալ պայմանները:
+              ձեր հարազատի մասնագիտացված խնամքը:
             </p>
           </div>
           <form class="cta-form grid grid--3-cols" name="book-consultation">
@@ -1153,7 +1161,7 @@
       </section>
     </main>
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container footer-content grid">
         <!-- facebook -->
         <div class="social-media-box flex-column padding-top--sm">

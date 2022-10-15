@@ -39,6 +39,15 @@
 - Deploy on Netlify
 - Buy a domain
 
+# TODO
+
+- add about us before coops
+- change placeholder to "cancer"
+- add instagram
+- remove facebook a link
+- swap garakeshish and koch
+- increase services font size
+
 ###### NOT-added features
 
 # Calls
