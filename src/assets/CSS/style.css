@@ -24,6 +24,10 @@
   padding: 1rem;
 }
 
+.header-contact {
+  padding-right: 4rem;
+}
+
 .header-logo-img {
   height: 12rem;
 }
@@ -477,9 +481,9 @@
 }
 
 .footer-content {
-  max-width: 110rem;
+  max-width: 150rem;
   display: grid;
-  grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
 }
 
 .footer-logo-and-copyright {
