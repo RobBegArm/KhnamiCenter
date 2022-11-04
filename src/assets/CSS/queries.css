@@ -1,18 +1,38 @@
 /* 1rem = 1em = 16px */
 
+/* Below 1584px (semi-narrow computers) */
+@media (max-width: 99em) {
+  .hero {
+    max-width: 130rem;
+  }
+}
+
 /* Below 1504px (narrow computers) */
 @media (max-width: 94em) {
   .header-address-text {
     max-width: 26rem;
   }
+
+  .header-nav {
+    font-size: 2.4rem;
+    gap: 0.6rem;
+  }
+
+  .lang-select-dropdown-btn {
+    font-size: 2.4rem;
+  }
+
+  .header-address-text {
+    font-size: 1.8rem;
+  }
+
+  .header-contact {
+    padding-right: 0;
+  }
 }
 
 /* Below 1344px (smaller computers) */
 @media (max-width: 84em) {
-  .header-logo-img {
-    height: 10.5rem;
-  }
-
   .header {
     height: 16.8rem;
     font-size: 2.4rem;
@@ -27,7 +47,7 @@
   }
 
   .container {
-    max-width: 110rem !important;
+    max-width: 120rem;
   }
 
   .header-address-text {
@@ -52,10 +72,30 @@
     font-size: 2.4rem;
     padding: 2rem 4rem !important;
   }
+
+  /* .grid--team .grid--team-row {
+    grid-template-columns: repeat(3, 1fr);
+  } */
 }
 
-/* Below 1104px (Landscape Tablets) */
-@media (max-width: 69em) {
+/* Below 1248px (smaller computers) */
+@media (max-width: 78em) {
+  .header-nav {
+    font-size: 2.2rem;
+    gap: 0.3rem;
+  }
+
+  .lang-select-dropdown-btn {
+    font-size: 2.2rem;
+  }
+
+  .header-address-text {
+    font-size: 1.6rem;
+  }
+}
+
+/* Below 1200px (Landscape Tablets) */
+@media (max-width: 75em) {
   html {
     /*56.25% -> 1rem = 9px*/
     font-size: 56.25%;

@@ -43,6 +43,7 @@
 
 - add about us before coops(?)
 - add license
+- add touch gallery effects
 
 ###### NOT-added features
 
