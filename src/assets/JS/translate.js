@@ -25,13 +25,12 @@ const langSelectButtonsARM = document.querySelectorAll(".lang-select--arm");
 
 // Select inputs with text placeholders in the cta form
 const txtPlcInputs = document.querySelectorAll(".txtPlcInput");
-log(txtPlcInputs);
 
 // Creates an array of placeholder texts
 // patientName-patientDiagnosis-contactName-contactEmail
-const plcEN = ["Hakob Hakobyan", "Oncology", "Armine Hakobyan"];
-const plcRU = ["Акоп Акопян", "Онкология", "Армине Акопян"];
-const plcARM = ["Հակոբ Հակոբյան", "Ուռուցքաբանություն", "Արմինե Հակոբյան"];
+const plcEN = ["Hakob Hakobyan", "Cancer", "Armine Hakobyan"];
+const plcRU = ["Акоп Акопян", "Рак", "Армине Акопян"];
+const plcARM = ["Հակոբ Հակոբյան", "Ուռուցք", "Արմինե Հակոբյան"];
 
 const translatePlaceholders = function (placeholders) {
   txtPlcInputs.forEach((el, i) => {

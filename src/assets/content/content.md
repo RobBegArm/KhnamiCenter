@@ -41,12 +41,8 @@
 
 # TODO
 
-- add about us before coops
-- change placeholder to "cancer"
-- add instagram
-- remove facebook a link
-- swap garakeshish and koch
-- increase services font size
+- add about us before coops(?)
+- add license
 
 ###### NOT-added features
 
