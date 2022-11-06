@@ -18,11 +18,6 @@ const langSelectButtonsEN = document.querySelectorAll(".lang-select--en");
 const langSelectButtonsRU = document.querySelectorAll(".lang-select--ru");
 const langSelectButtonsARM = document.querySelectorAll(".lang-select--arm");
 
-// const patientName = document.querySelector("#patient_name");
-// const patientDiagnosis = document.querySelector("#patient_diagnosis");
-// const contactName = document.querySelector("#contact_name");
-// const contactEmail = document.querySelector("#contact_email");
-
 // Select inputs with text placeholders in the cta form
 const txtPlcInputs = document.querySelectorAll(".txtPlcInput");
 

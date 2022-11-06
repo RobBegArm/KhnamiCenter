@@ -109,3 +109,46 @@ const changeGalleryNavBullet = function (type) {
     currentImage - 1
   ].innerHTML = `<ion-icon name="${type}" class="gallery-nav-icon"></ion-icon>`;
 };
+
+// Change language dropdown menu visibility onclick
+
+const langSelectBtns = document.querySelectorAll(".lang-select-dropdown-btn");
+const langSelectDropdownContents = document.querySelectorAll(
+  ".lang-select-dropdown-content"
+);
+
+let dropdownContentVisible = false;
+
+//Toggles the visibility of contents
+langSelectBtns.forEach((el, i) => {
+  el.addEventListener("click", () => {
+    !dropdownContentVisible;
+    langSelectDropdownContents[i].classList.toggle("hidden-content");
+  });
+});
+
+// Hides Dropdown Content on click if it is visible
+const hideDropdownContents = function () {
+  if (!dropdownContentVisible) {
+    langSelectDropdownContents.forEach(el => {
+      el.classList.add("hidden-content");
+    });
+  }
+};
+
+document.addEventListener("click", hideDropdownContents);
+
+// log(langSelectDropdownContent);
+
+//
+
+// const openLangSelect = function (langSelectIsOpen) {
+//   log("BUTTON CLICKED!");
+//   langSelectDropdownContent.forEach(el => {
+//     el.style.display = langSelectIsOpen ? "none" : "block";
+//   });
+// };
+
+// langSelectBtn.forEach(el => {
+//   el.addEventListener("click", openLangSelect(langSelectIsOpen));
+// });

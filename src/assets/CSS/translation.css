@@ -22,6 +22,11 @@
 
 /* Armenian */
 
+.language--arm,
+.armenian {
+  scale: 110%;
+}
+
 /* hero */
 
 .heading-primary.language--arm {

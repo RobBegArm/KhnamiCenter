@@ -11,6 +11,8 @@
 [DONE] Cta
 [DONE] Footer
 
+[DONE] Support language change
+
 # Page Responsiveness
 
 - Add media queries
@@ -20,7 +22,7 @@
 
 - Translate To Russian
 - Translate to Armenian
-- Support language change
+
 - fix language-styles
 
 # META
@@ -42,8 +44,8 @@
 # TODO
 
 - add about us before coops(?)
-- add license
-- add touch gallery effects
+- add license (?)
+- add touch gallery effects (?)
 
 ###### NOT-added features
 
