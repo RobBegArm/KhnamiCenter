@@ -218,6 +218,10 @@
   font-size: 3rem;
 }
 
+.service {
+  font-size: 2.2rem;
+}
+
 .services-main-icon {
   font-size: 16rem;
   color: var(--main-color);

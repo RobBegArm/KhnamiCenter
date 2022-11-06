@@ -73,6 +73,10 @@
     padding: 2rem 4rem !important;
   }
 
+  .service {
+    font-size: 2rem;
+  }
+
   /* .grid--team .grid--team-row {
     grid-template-columns: repeat(3, 1fr);
   } */
@@ -99,6 +103,20 @@
   html {
     /*56.25% -> 1rem = 9px*/
     font-size: 56.25%;
+  }
+
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .service {
+    font-size: 2.2rem;
+    margin-left: 7rem;
+  }
+
+  .services-box {
+    min-width: 50rem;
+    margin: 0 auto;
   }
 }
 
