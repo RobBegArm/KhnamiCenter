@@ -250,8 +250,10 @@
 
 /* Gallery */
 
-.gallery {
+.gallery,
+.gallery-nav {
   padding: 9rem 3.2rem;
+  max-width: 90rem;
 }
 
 .gallery-btn {

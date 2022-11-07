@@ -68,7 +68,8 @@
     margin-bottom: 3rem;
   }
 
-  .hero-cta-btn {
+  .hero-cta-btn:link,
+  .hero-cta-btn:visited {
     font-size: 2.4rem;
     padding: 2rem 4rem !important;
   }
@@ -150,24 +151,131 @@
   .header-link:not(:first-child) {
     display: none;
   }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .section-hero {
+    padding-top: 1rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 4.6rem;
+  }
+
+  .hero-text-box {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .hero-description {
+    max-width: 70rem;
+  }
 }
 
 /* Below 848px (Small Tablets) */
 @media (max-width: 53em) {
+  .section-cooperations {
+    padding-bottom: 4.8rem;
+  }
+
+  .coop-logo-img {
+    height: 5rem;
+  }
+
   .team-member-box,
   .team-member-box:last-child {
     grid-column: span 6 !important;
+  }
+
+  .gallery {
+    scale: 80%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .gallery-nav {
+    padding: 0;
+  }
+
+  .testimonial-text {
+    font-size: 1.8rem;
+  }
+
+  .testimonial-author {
+    font-size: 1.4rem;
+  }
+}
+
+/* Below 688px (Large Phones) */
+@media (max-width: 43em) {
+  .header {
+    padding: 4.8rem 1rem 4.8rem 1rem;
+  }
+
+  .header-link--home {
+    margin-right: 0;
+  }
+
+  .header-logo-img {
+    height: 9rem;
+  }
+
+  .heading-primary {
+    font-size: 5.8rem;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
   }
 }
 
 /* Below 512px (Phones) */
 @media (max-width: 32em) {
+  .header {
+    padding: 4.8rem 0rem 4.8rem 0rem;
+  }
+
+  .header-nav {
+    flex-direction: column;
+  }
+
+  .lang-select-dropdown {
+    align-self: flex-start;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+  }
+
+  .hero-description {
+    font-size: 1.6rem;
+  }
+
+  .header-icon {
+    font-size: 2.2rem;
+  }
+
+  .header-logo-img {
+    height: 8rem;
+  }
+
+  .coop-logo-img {
+    height: 4rem;
+  }
+
   .services-box {
     min-width: 36rem;
   }
 
   .service {
     margin-left: 0;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
   }
 
   .grid--team {
@@ -200,6 +308,18 @@
 
 /* Below 416px (Phones) */
 @media (max-width: 26em) {
+  .heading-primary {
+    font-size: 4.6rem;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+  }
+
+  .coop-logo-img {
+    height: 3.5rem;
+  }
+
   .service {
     font-size: 2rem;
   }
