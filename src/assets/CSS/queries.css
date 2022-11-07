@@ -77,9 +77,13 @@
     font-size: 2rem;
   }
 
-  /* .grid--team .grid--team-row {
-    grid-template-columns: repeat(3, 1fr);
-  } */
+  .team-member-box {
+    grid-column: span 4 !important;
+  }
+
+  .team-member-box:last-child {
+    grid-column: span 12 !important;
+  }
 }
 
 /* Below 1248px (smaller computers) */
@@ -145,5 +149,90 @@
 @media (max-width: 61em) {
   .header-link:not(:first-child) {
     display: none;
+  }
+}
+
+/* Below 848px (Small Tablets) */
+@media (max-width: 53em) {
+  .team-member-box,
+  .team-member-box:last-child {
+    grid-column: span 6 !important;
+  }
+}
+
+/* Below 512px (Phones) */
+@media (max-width: 32em) {
+  .services-box {
+    min-width: 36rem;
+  }
+
+  .service {
+    margin-left: 0;
+  }
+
+  .grid--team {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 20rem;
+  }
+
+  .team-member-box:nth-child(n) {
+    grid-column: span 1 !important;
+  }
+
+  .team-member-box {
+    min-width: 20rem;
+    min-height: 16rem;
+    gap: 1rem;
+  }
+
+  .team-member-img {
+    height: 18rem;
+  }
+
+  .team-member-name {
+    font-size: 2rem;
+  }
+
+  .team-member-title {
+    font-size: 1.4rem;
+  }
+}
+
+/* Below 416px (Phones) */
+@media (max-width: 26em) {
+  .service {
+    font-size: 2rem;
+  }
+}
+
+/* Below 368px (Small Phones) */
+@media (max-width: 23em) {
+  .services-box {
+    min-width: 30rem;
+  }
+
+  .services {
+    padding: 0 1rem;
+  }
+
+  .service {
+    font-size: 1.8rem;
+  }
+
+  .team-member-box {
+    min-width: 16.5rem;
+    min-height: 14rem;
+  }
+
+  .team-member-img {
+    height: 15rem;
+  }
+
+  .team-member-name {
+    font-size: 1.8rem;
+  }
+
+  .team-member-title {
+    font-size: 1.2rem;
   }
 }
