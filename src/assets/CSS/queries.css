@@ -364,6 +364,11 @@
 
   .testimonials {
     grid-template-columns: 1fr;
+    row-gap: 0;
+  }
+
+  .testimonial-img {
+    height: 10rem;
   }
 
   .grid--team {

@@ -350,6 +350,7 @@
 
 .testimonials {
   padding: 1.6rem 3.2rem;
+  row-gap: 3rem;
 }
 
 .testimonial-box {
