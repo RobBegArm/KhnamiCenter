@@ -85,6 +85,19 @@
   .team-member-box:last-child {
     grid-column: span 12 !important;
   }
+
+  .cta-box {
+    max-width: 84rem;
+  }
+
+  .cta-form {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4.8rem;
+  }
+
+  .btn--form-box {
+    grid-column: span 2;
+  }
 }
 
 /* Below 1248px (smaller computers) */
@@ -173,6 +186,25 @@
   .hero-description {
     max-width: 70rem;
   }
+
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+
+  .footer-item:nth-child(3n + 1) {
+    grid-row: 1;
+  }
+
+  .footer-contact {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+  }
+
+  .footer-lang-select,
+  .footer-contact {
+    margin: 0 auto;
+  }
 }
 
 /* Below 848px (Small Tablets) */
@@ -191,13 +223,18 @@
   }
 
   .gallery {
-    scale: 80%;
     padding-left: 0;
     padding-right: 0;
   }
 
-  .gallery-nav {
-    padding: 0;
+  .gallery-element {
+    width: 90vw;
+    height: 40vw;
+  }
+
+  .gallery-img-box {
+    height: 48.8vw;
+    width: 73.2vw;
   }
 
   .testimonial-text {
@@ -206,6 +243,20 @@
 
   .testimonial-author {
     font-size: 1.4rem;
+  }
+
+  .cta-box {
+    max-width: 52rem;
+  }
+
+  .cta-form {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2.4rem;
+  }
+
+  .btn--form-box {
+    margin-top: 2.4rem;
+    grid-column: span 1;
   }
 }
 
@@ -229,6 +280,18 @@
 
   .hero-description {
     font-size: 1.8rem;
+  }
+
+  .footer-logo-img {
+    height: 10rem;
+  }
+
+  .footer-item {
+    max-width: 20rem;
+  }
+
+  .footer-contact p {
+    font-size: 1.6rem;
   }
 }
 
@@ -303,6 +366,45 @@
 
   .team-member-title {
     font-size: 1.4rem;
+  }
+
+  .cta-box {
+    max-width: 32rem;
+  }
+
+  .cta-headline {
+    font-size: 4rem;
+  }
+
+  .cta-description {
+    font-size: 1.8rem;
+  }
+
+  .footer-logo-img {
+    height: 8rem;
+  }
+
+  .footer-contact {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+  }
+
+  .footer-logo-img {
+    height: 10rem;
+  }
+
+  .footer-contact p {
+    font-size: 1.8rem;
+  }
+
+  .footer-logo-and-copyright {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    margin: 2rem auto;
+  }
+
+  .footer--lang-select-dropdown-content {
+    transform: translate(-20%);
   }
 }
 
