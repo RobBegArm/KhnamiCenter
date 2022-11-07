@@ -270,6 +270,15 @@
     margin-top: 2.4rem;
     grid-column: span 1;
   }
+
+  .form-element {
+    margin: 0 auto;
+  }
+
+  .btn--form-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Below 688px (Large Phones) */
