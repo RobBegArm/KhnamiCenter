@@ -223,8 +223,8 @@
   }
 
   .gallery {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 9.5vw 0;
+    row-gap: 8vw;
   }
 
   .gallery-element {
@@ -235,6 +235,18 @@
   .gallery-img-box {
     height: 48.8vw;
     width: 73.2vw;
+  }
+
+  .gallery-img-icon {
+    font-size: 4.5rem;
+  }
+
+  .gallery-btn-left {
+    right: 94%;
+  }
+
+  .gallery-btn-right {
+    left: 94%;
   }
 
   .testimonial-text {
@@ -335,6 +347,10 @@
 
   .service {
     margin-left: 0;
+  }
+
+  .gallery-img-icon {
+    font-size: 3.5rem;
   }
 
   .testimonials {
