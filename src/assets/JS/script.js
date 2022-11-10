@@ -146,4 +146,11 @@ const hideDropdownContents = function () {
   }
 };
 
+// Select all language select elements
+const allLangSelectButtons = document.querySelectorAll(".lang-select");
+
 document.addEventListener("click", hideDropdownContents);
+allLangSelectButtons.forEach(el => {
+  el.addEventListener("click", hideDropdownContents);
+  dropdownContentVisible = false;
+});
