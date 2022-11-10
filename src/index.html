@@ -151,6 +151,17 @@
       <div class="header-contact">
         <div class="header-contact-container flex--centered-vertically">
           <address class="header-address grid">
+            <!-- mobile navbar -->
+          <button class="btn-mobile-nav">
+            <ion-icon
+              name="menu-outline"
+              class="icon-mobile-nav btn--open-nav"
+            ></ion-icon>
+            <ion-icon
+              name="close-outline"
+              class="icon-mobile-nav btn--close-nav"
+            ></ion-icon>
+          </button>
             <!-- map location -->
             <a
               href="#"
@@ -170,9 +181,8 @@
             </a>
             <!-- Phone Number  -->
             <a
-              href="#"
-              class="header-address-box flex--centered-vertically address-link"
               href="tel:+37493577539"
+              class="header-address-box flex--centered-vertically address-link"
             >
               <ion-icon name="call-outline" class="header-icon"></ion-icon>
               <div class="header-address-text">
@@ -237,41 +247,6 @@
               src="./assets/content/images/Personnel 1 - cropped-enhanced.png"
               alt="Khnami Center nurses smiling for a group personnel picture"
               class="hero-img shadow"
-            />
-          </div>
-        </div>
-      </section>
-      <!-- COOPERATIONS SECTION -->
-      <section class="section-cooperations padding--section">
-        <div class="cooperations container">
-          <!-- cooperations headline -->
-          <p class="language language--en">We cooperate with</p>
-          <p class="language language--ru invisible">Мы сотрудничаем с</p>
-          <p class="language language--arm invisible">
-            Մենք համագործակցում ենք
-          </p>
-
-          <!-- cooperations logos -->
-          <div class="coop-logo-box flex--centered-vertically">
-            <img
-              class="coop-logo-img"
-              src="./assets/content/images/cooperations/UNFPA_logo.png"
-              alt="UNFPA Logo"
-            />
-            <img
-              class="coop-logo-img"
-              src="./assets/content/images/cooperations/ACA_logo.png"
-              alt="ACA Logo"
-            />
-            <img
-              class="coop-logo-img"
-              src="./assets/content/images/cooperations/FriendsHome_logo.png"
-              alt="Friends Home Logo"
-            />
-            <img
-              class="coop-logo-img"
-              src="./assets/content/images/cooperations/Promtest_logo.png"
-              alt="Promtest Laboratories Logo"
             />
           </div>
         </div>
@@ -442,7 +417,7 @@
                   Bed linen, household items
                 </p>
                 <p class="language language--ru invisible">
-                  Постельное белье и предметы быта
+                  Белье и бытовые предметы 
                 </p>
                 <p class="language language--arm invisible">
                   Սպիտակեղեն և կենցաղային իրեր
@@ -539,7 +514,7 @@
           </h2>
         </div>
         <!-- gallery container -->
-        <div class="gallery container grid">
+        <div class="gallery--container gallery grid">
           <div class="gallery-element">
             <!-- gallery image -->
             <div class="gallery-img-box shadow--dark--strong">
@@ -593,9 +568,8 @@
               ></ion-icon>
             </btn>
           </div>
-        </div>
-        <!-- gallery navigation -->
-        <nav class="gallery-nav container">
+          <!-- gallery navigation -->
+        <nav class="gallery-nav">
           <ul class="gallery-nav-bullets list">
             <li class="gallery-nav-bullet" id="gallery_bullet_1">
               <ion-icon name="ellipse" class="gallery-nav-icon"></ion-icon>
@@ -638,6 +612,8 @@
             </li>
           </ul>
         </nav>
+        </div>
+        
         <!-- testimonials container -->
         <div class="testimonials container grid grid--2-cols">
           <div class="testimonial-box">
@@ -1185,12 +1161,47 @@
           </form>
         </div>
       </section>
+      <!-- COOPERATIONS SECTION -->
+      <section class="section-cooperations padding--section">
+        <div class="cooperations container">
+          <!-- cooperations headline -->
+          <p class="language language--en">We cooperate with</p>
+          <p class="language language--ru invisible">Мы сотрудничаем с</p>
+          <p class="language language--arm invisible">
+            Մենք համագործակցում ենք
+          </p>
+
+          <!-- cooperations logos -->
+          <div class="coop-logo-box flex--centered-vertically">
+            <img
+              class="coop-logo-img"
+              src="./assets/content/images/cooperations/UNFPA_logo.png"
+              alt="UNFPA Logo"
+            />
+            <img
+              class="coop-logo-img"
+              src="./assets/content/images/cooperations/ACA_logo.png"
+              alt="ACA Logo"
+            />
+            <img
+              class="coop-logo-img"
+              src="./assets/content/images/cooperations/FriendsHome_logo.png"
+              alt="Friends Home Logo"
+            />
+            <img
+              class="coop-logo-img"
+              src="./assets/content/images/cooperations/Promtest_logo.png"
+              alt="Promtest Laboratories Logo"
+            />
+          </div>
+        </div>
+      </section>
     </main>
     <!-- FOOTER -->
     <footer class="footer" id="footer">
       <div class="container footer-content grid">
         <!-- facebook -->
-        <div class="social-media-box flex-column padding-top--sm">
+        <div class="footer-item social-media-box flex-column padding-top--sm">
           <p class="footer-headline center-text language language--en">
             Follow us on Facebook!
           </p>
@@ -1215,13 +1226,13 @@
           </div>
         </div>
         <!-- logo and copyright -->
-        <div class="footer-logo-and-copyright flex-column">
+        <div class="footer-item footer-logo-and-copyright flex-column">
           <div class="footer-logo-box">
             <a href="#" class="btn footer-link--home"
               ><img
                 src="./assets/content/images/logo.png"
                 alt="Khnami Logo"
-                class="header-logo-img"
+                class="footer-logo-img"
             /></a>
           </div>
           <div class="footer-copyright-box">
@@ -1237,7 +1248,7 @@
           </div>
         </div>
         <!-- adress -->
-        <div class="footer-contact flex-column padding-top--sm">
+        <div class="footer-item footer-contact flex-column padding-top--sm">
           <p class="footer-headline language language--en">Contact</p>
           <p class="footer-headline language language--ru invisible">Контакт</p>
           <p class="footer-headline language language--arm invisible">Կապ</p>
@@ -1257,7 +1268,7 @@
           <p class="footer-contact-email">khnamicenter@yahoo.com</p>
         </div>
         <!-- language select -->
-        <div class="footer-lang-select flex-column padding-top--sm">
+        <div class="footer-item footer-lang-select flex-column padding-top--sm">
           <p class="footer-headline language language--en">Language</p>
           <p class="footer-headline language language--ru invisible">Язык</p>
           <p class="footer-headline language language--arm invisible">Լեզու</p>
@@ -1287,7 +1298,7 @@
               </p>
               <ion-icon name="caret-down-outline"></ion-icon>
             </button>
-            <div class="lang-select-dropdown-content">
+            <div class="lang-select-dropdown-content footer--lang-select-dropdown-content hidden-content">
               <a href="#" class="lang-select lang-select--arm">
                 <img
                   src="./assets/content/images/util/ARMflag.svg"

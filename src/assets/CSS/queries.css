@@ -68,7 +68,8 @@
     margin-bottom: 3rem;
   }
 
-  .hero-cta-btn {
+  .hero-cta-btn:link,
+  .hero-cta-btn:visited {
     font-size: 2.4rem;
     padding: 2rem 4rem !important;
   }
@@ -83,6 +84,19 @@
 
   .team-member-box:last-child {
     grid-column: span 12 !important;
+  }
+
+  .cta-box {
+    max-width: 84rem;
+  }
+
+  .cta-form {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4.8rem;
+  }
+
+  .btn--form-box {
+    grid-column: span 2;
   }
 }
 
@@ -150,24 +164,211 @@
   .header-link:not(:first-child) {
     display: none;
   }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .section-hero {
+    padding-top: 1rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 4.6rem;
+  }
+
+  .hero-text-box {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .hero-description {
+    max-width: 70rem;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+
+  .footer-item:nth-child(3n + 1) {
+    grid-row: 1;
+  }
+
+  .footer-contact {
+    grid-column: 1 / span 1;
+    grid-row: 2;
+  }
+
+  .footer-lang-select,
+  .footer-contact {
+    margin: 0 auto;
+  }
 }
 
 /* Below 848px (Small Tablets) */
 @media (max-width: 53em) {
+  .section-cooperations {
+    padding-bottom: 4.8rem;
+  }
+
+  .coop-logo-img {
+    height: 5rem;
+  }
+
   .team-member-box,
   .team-member-box:last-child {
     grid-column: span 6 !important;
+  }
+
+  .gallery {
+    padding: 9.5vw 0;
+    row-gap: 8vw;
+  }
+
+  .gallery-element {
+    width: 90vw;
+    height: 40vw;
+  }
+
+  .gallery-img-box {
+    height: 48.8vw;
+    width: 73.2vw;
+  }
+
+  .gallery-img-icon {
+    font-size: 4.5rem;
+  }
+
+  .gallery-btn-left {
+    right: 94%;
+  }
+
+  .gallery-btn-right {
+    left: 94%;
+  }
+
+  .testimonial-text {
+    font-size: 1.8rem;
+  }
+
+  .testimonial-author {
+    font-size: 1.4rem;
+  }
+
+  .cta-box {
+    max-width: 52rem;
+  }
+
+  .cta-form {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2.4rem;
+  }
+
+  .btn--form-box {
+    margin-top: 2.4rem;
+    grid-column: span 1;
+  }
+
+  .form-element {
+    margin: 0 auto;
+  }
+
+  .btn--form-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Below 688px (Large Phones) */
+@media (max-width: 43em) {
+  .header {
+    padding: 4.8rem 1rem 4.8rem 1rem;
+  }
+
+  .header-link--home {
+    margin-right: 0;
+  }
+
+  .header-logo-img {
+    height: 9rem;
+  }
+
+  .heading-primary {
+    font-size: 5.8rem;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+  }
+
+  .footer-logo-img {
+    height: 10rem;
+  }
+
+  .footer-item {
+    max-width: 20rem;
+  }
+
+  .footer-contact p {
+    font-size: 1.6rem;
   }
 }
 
 /* Below 512px (Phones) */
 @media (max-width: 32em) {
+  .header {
+    padding: 4.8rem 0rem 4.8rem 0rem;
+  }
+
+  .header-nav {
+    flex-direction: column;
+  }
+
+  .lang-select-dropdown {
+    align-self: flex-start;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+  }
+
+  .hero-description {
+    font-size: 1.6rem;
+  }
+
+  .header-icon {
+    font-size: 2.2rem;
+  }
+
+  .header-logo-img {
+    height: 8rem;
+  }
+
+  .coop-logo-img {
+    height: 4rem;
+  }
+
   .services-box {
     min-width: 36rem;
   }
 
   .service {
     margin-left: 0;
+  }
+
+  .gallery-img-icon {
+    font-size: 3.5rem;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+  }
+
+  .testimonial-img {
+    height: 10rem;
   }
 
   .grid--team {
@@ -196,10 +397,61 @@
   .team-member-title {
     font-size: 1.4rem;
   }
+
+  .cta-box {
+    max-width: 32rem;
+  }
+
+  .cta-headline {
+    font-size: 4rem;
+  }
+
+  .cta-description {
+    font-size: 1.8rem;
+  }
+
+  .footer-logo-img {
+    height: 8rem;
+  }
+
+  .footer-contact {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+  }
+
+  .footer-logo-img {
+    height: 10rem;
+  }
+
+  .footer-contact p {
+    font-size: 1.8rem;
+  }
+
+  .footer-logo-and-copyright {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    margin: 2rem auto;
+  }
+
+  .footer--lang-select-dropdown-content {
+    transform: translate(-20%);
+  }
 }
 
 /* Below 416px (Phones) */
 @media (max-width: 26em) {
+  .heading-primary {
+    font-size: 4.6rem;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+  }
+
+  .coop-logo-img {
+    height: 3.5rem;
+  }
+
   .service {
     font-size: 2rem;
   }

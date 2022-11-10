@@ -134,6 +134,24 @@ body {
   display: none;
 }
 
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+  z-index: 9999;
+  text-align: right;
+}
+
+.icon-mobile-nav {
+  font-size: 4.2rem;
+  color: var(--shade-10);
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /* LINKS */
 
 .header-link:link,

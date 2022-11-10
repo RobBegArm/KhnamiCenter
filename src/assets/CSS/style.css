@@ -28,7 +28,8 @@
   padding-right: 4rem;
 }
 
-.header-logo-img {
+.header-logo-img,
+.footer-logo-img {
   height: 12rem;
 }
 
@@ -250,8 +251,10 @@
 
 /* Gallery */
 
-.gallery {
+.gallery--container {
   padding: 9rem 3.2rem;
+  max-width: 90rem;
+  margin: 0 auto;
 }
 
 .gallery-img {
@@ -350,6 +353,7 @@
 
 .testimonials {
   padding: 1.6rem 3.2rem;
+  row-gap: 3rem;
 }
 
 .testimonial-box {
@@ -486,7 +490,7 @@
 }
 
 .btn--form-box {
-  grid-column: 1/4;
+  grid-column: span 3;
   display: flex;
 }
 
@@ -524,7 +528,7 @@
 }
 
 .footer-logo-box {
-  margin: 0 auto;
+  margin: auto auto;
   height: 13rem;
 }
 

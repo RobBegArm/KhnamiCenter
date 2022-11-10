@@ -16,12 +16,9 @@
 # Page Responsiveness
 
 - Add media queries
-- Add sticky navbar
+- Add hamburger navbar
 
 # Languages
-
-- Translate To Russian
-- Translate to Armenian
 
 - fix language-styles
 
