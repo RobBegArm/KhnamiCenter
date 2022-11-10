@@ -26,8 +26,8 @@ allLinks.forEach(link => {
 
 const galleryButtonLeft = document.querySelector(".gallery-btn-left");
 const galleryButtonRight = document.querySelector(".gallery-btn-right");
+const galleryImg = document.querySelectorAll(".gallery-img");
 const galleryImgBox = document.querySelector(".gallery-img-box");
-
 const galleryNavElArray = document.querySelectorAll(".gallery-nav-bullet");
 
 //Current Active image number and total images number
@@ -86,6 +86,7 @@ const shiftImgNo = function (direction) {
       }
       break;
   }
+  log(`current image: ${currentImage}`);
 };
 
 //Waits for the end of animation
@@ -99,14 +100,19 @@ galleryImgBox.addEventListener(
 
 // Change the image according to active image number
 const changeImg = function () {
-  galleryImgBox.style.background = `url('./assets/content/images/gallery/Gallery-img-${currentImage}.jpg')`;
+  galleryImg[currentImage - 1].classList.remove("invisible");
+  galleryImg.forEach((el, i) => {
+    if (i !== currentImage - 1) {
+      el.classList.add("invisible");
+    }
+  });
   galleryImgBox.classList.add("shade");
 };
 
 // Select All Gallery Images
-const galleryImg1 = new Image();
-galleryImg1.src = "./assets/content/images/gallery/Gallery-img-1.jpg";
-galleryImgBox.style.background = galleryImg1;
+// const galleryImg1 = new Image();
+// galleryImg1.src = "./assets/content/images/gallery/Gallery-img-1.jpg";
+// galleryImgBox.style.background = galleryImg1;
 
 // Change the nav bullet according to bullet type (ellipse/ellipse-outline)
 const changeGalleryNavBullet = function (type) {
