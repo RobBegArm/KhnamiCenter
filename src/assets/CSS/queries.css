@@ -5,6 +5,21 @@
   .hero {
     max-width: 130rem;
   }
+
+  /* Armenian */
+
+  .heading-primary.language--arm {
+    font-size: 5.2rem !important;
+  }
+
+  .main-nav p.language--arm,
+  .lang-select-dropdown-btn p.language--arm {
+    font-size: 2rem;
+  }
+
+  .header-address-text .language--arm {
+    font-size: 1.8rem !important;
+  }
 }
 
 /* Below 1504px (narrow computers) */
@@ -54,7 +69,11 @@
     font-size: 2.1rem !important;
   }
 
-  /* Russian */
+  /* ARMENIAN */
+
+  .service p.language--arm {
+    font-size: 1.8rem !important;
+  }
 
   .header-nav {
     gap: 0.5rem;
@@ -143,6 +162,11 @@
 
   .header-address-text {
     font-size: 1.6rem;
+  }
+
+  /* Armenian */
+  .service p.language--arm {
+    font-size: 2.2rem !important;
   }
 }
 
@@ -287,6 +311,9 @@
 
   .hero-cta-btn.language--ru {
     font-size: 2.2rem;
+  }
+
+  .hero-cta-btn {
     width: 70vw !important;
   }
 
@@ -306,6 +333,7 @@
   .gallery {
     padding: 9.5vw 0;
     row-gap: 8vw;
+    margin: 0 auto;
   }
 
   .gallery-element {
@@ -409,6 +437,21 @@
     padding: 4.8rem 0rem 4.8rem 0rem;
   }
 
+  .services-headline,
+  .gallery-headline {
+    padding: 1.2rem;
+  }
+
+  /* Armenian */
+
+  .heading-primary.language--arm {
+    font-size: 4.4rem !important;
+  }
+
+  .service p.language--arm {
+    font-size: 2rem !important;
+  }
+
   .header-nav {
     flex-direction: column;
   }
@@ -508,6 +551,10 @@
     font-size: 1.6rem;
   }
 
+  .footer-contact {
+    max-width: 80vw;
+  }
+
   /* Russian */
 
   .btn--form p.language--ru {
@@ -554,8 +601,32 @@
 
 /* Below 416px (Phones) */
 @media (max-width: 26em) {
+  /* Russian */
+
   .heading-primary.language--ru {
     font-size: 3.6rem !important;
+  }
+
+  /* Armenian */
+
+  .heading-primary.language--arm {
+    font-size: 3.6rem !important;
+  }
+
+  .cta-headline.language--arm {
+    font-size: 2.4rem;
+  }
+
+  .hero-cta-btn.language--arm {
+    font-size: 2.1rem !important;
+  }
+
+  .service p.language--arm {
+    font-size: 1.8rem !important;
+  }
+
+  h2.language--arm {
+    font-size: 4rem;
   }
 
   .hero-description.language--ru {
@@ -583,6 +654,20 @@
 @media (max-width: 23em) {
   .services-box {
     min-width: 30rem;
+  }
+
+  /* ARMENIAN */
+
+  .header-address-text .language--arm {
+    font-size: 1.7rem !important;
+  }
+
+  h2.language--arm {
+    font-size: 3.6rem;
+  }
+
+  .service p.language--arm {
+    font-size: 1.6rem !important;
   }
 
   /* RUSSIAN */

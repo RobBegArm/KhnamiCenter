@@ -118,6 +118,11 @@ body {
   margin-bottom: 1.6rem;
 }
 
+.services-headline,
+.gallery-headline {
+  padding: 2.4rem 2.4rem;
+}
+
 /* BUTTONS */
 
 .btn,
@@ -156,7 +161,7 @@ body {
 .header-link:visited,
 .address-link:link,
 .address-link:visited {
-  padding: 1rem;
+  padding: 0.9rem;
   color: #363535;
 }
 

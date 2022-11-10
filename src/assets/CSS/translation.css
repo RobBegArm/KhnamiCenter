@@ -21,16 +21,15 @@
 }
 
 /* Armenian */
-/* 
-.language--arm,
-.armenian {
-  scale: 110%;
-} */
 
 /* hero */
 
-/* .heading-primary.language--arm {
+.heading-primary.language--arm {
   font-size: 6.4rem;
+}
+
+.hero-description.language--arm {
+  font-weight: 500;
 }
 
 .header-address-text .language--arm {
@@ -39,4 +38,8 @@
 
 .hero-cta-btn.language--arm {
   width: 40rem;
-} */
+}
+
+.service p.language--arm {
+  font-size: 2rem;
+}

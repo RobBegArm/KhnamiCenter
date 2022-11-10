@@ -256,7 +256,7 @@
 .gallery--container {
   padding: 3.2rem 3.2rem 1.2rem 3.2rem;
   max-width: 90rem;
-  margin: 0 auto;
+  margin: 4rem auto 0;
 }
 
 .gallery-img {
