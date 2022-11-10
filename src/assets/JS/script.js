@@ -86,7 +86,6 @@ const shiftImgNo = function (direction) {
       }
       break;
   }
-  log(`current image: ${currentImage}`);
 };
 
 //Waits for the end of animation

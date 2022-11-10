@@ -406,6 +406,10 @@
     font-size: 4rem;
   }
 
+  .form-element {
+    width: inherit;
+  }
+
   .cta-description {
     font-size: 1.8rem;
   }

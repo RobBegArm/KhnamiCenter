@@ -466,6 +466,10 @@
   max-width: 60rem;
 }
 
+.cta-form {
+  margin: 0 auto;
+}
+
 .cta-form input::placeholder {
   color: #aaa;
 }
