@@ -18,9 +18,6 @@
 # Page Responsiveness
 
 - Set hamburger navbar to sticky with lightly blurred background
-- Implement image scroll
-
-# Languages
 
 # META
 

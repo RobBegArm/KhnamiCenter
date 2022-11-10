@@ -229,7 +229,7 @@
     opacity: 1 !important;
     pointer-events: auto !important;
     visibility: visible !important;
-    z-index: 10 !important;
+    z-index: 9999 !important;
     display: flex !important;
   }
 

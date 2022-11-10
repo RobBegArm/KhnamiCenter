@@ -32,6 +32,8 @@ const mobileNavLinks = document.querySelectorAll(".mobile-nav-link");
 let navBarIsOpen = false;
 
 const toggleNavbar = function () {
+  let scrollTop = calculateScrollTop();
+  mobileNav.style.top = `${scrollTop}px`;
   mobileNavBtnOpen.classList.toggle("invisible");
   mobileNavBtnClose.classList.toggle("invisible");
   mobileNav.classList.toggle("main-nav--open");
@@ -47,6 +49,17 @@ mobileNavBtn.addEventListener("click", toggleNavbar);
 mobileNavLinks.forEach(el => {
   el.addEventListener("click", closeNavbar);
 });
+
+//Moving Modal Window For Mobile Navbar
+
+const calculateScrollTop = function () {
+  let scrollTop =
+    window.pageYOffset !== undefined
+      ? window.pageYOffset
+      : (document.documentElement || document.body.parentNode || document.body)
+          .scrollTop;
+  return scrollTop;
+};
 
 //Gallery
 
@@ -89,7 +102,6 @@ startup();
 function startup() {
   galleryImgBox.addEventListener("touchstart", handleStart);
   galleryImgBox.addEventListener("touchend", handleEnd);
-  log("Initialized.");
 }
 
 //Event Listeners for gallery bullets

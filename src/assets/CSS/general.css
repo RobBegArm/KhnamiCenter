@@ -309,24 +309,3 @@ body {
 ion-icon {
   pointer-events: none;
 }
-
-/* TEST FLOAT */
-
-.sticky {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
-
-.floating {
-  width: 100px;
-  height: 100px;
-  background-color: #2753b3;
-  position: absolute;
-  float: right;
-  z-index: 999;
-  top: 2rem;
-  right: 2rem;
-}
-
-/* TEST FLOAT */
