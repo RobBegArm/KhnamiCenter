@@ -399,8 +399,12 @@
     font-size: 1.4rem;
   }
 
+  .cta-form {
+    width: inherit;
+  }
+
   .cta-box {
-    max-width: 32rem;
+    width: inherit;
   }
 
   .cta-headline {
@@ -411,8 +415,12 @@
     width: inherit;
   }
 
+  .cta-headline {
+    font-size: 3rem;
+  }
+
   .cta-description {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .footer-logo-img {
