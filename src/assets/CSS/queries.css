@@ -161,8 +161,34 @@
 
 /* Below 976px (Tablets) */
 @media (max-width: 61em) {
-  .header-link:not(:first-child) {
-    display: none;
+  .main-nav--open {
+    transform: translateX(0%) !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    visibility: visible !important;
+    z-index: 10 !important;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s ease-in;
+    font-size: 4rem;
+    font-weight: 700;
   }
 
   .btn-mobile-nav {

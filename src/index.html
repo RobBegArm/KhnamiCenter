@@ -72,7 +72,7 @@
     <div class="header-background"></div>
     <header class="header container flex--centered-vertically">
       <!-- Header Navigation -->
-      <nav class="header-nav flex--centered-vertically">
+      <div class="header-nav flex--centered-vertically">
         <!-- logo link -->
         <a href="#" class="btn header-link header-link--home"
           ><img
@@ -80,35 +80,37 @@
             alt="Khnami Logo"
             class="header-logo-img"
         /></a>
+        <nav class="main-nav">
         <!-- header nav links -->
         <a
           href="#section_services"
-          class="btn header-link header-link--services margin-bot--md"
+          class="btn header-link header-link--services margin-bot--md mobile-nav-link"
           ><p class="language language--en">Services</p>
           <p class="language language--ru invisible">Услуги</p>
           <p class="language language--arm invisible">Ծառայություններ</p>
         </a>
         <a
           href="#section_gallery"
-          class="btn header-link header-link--gallery margin-bot--md"
+          class="btn header-link header-link--gallery margin-bot--md mobile-nav-link"
           ><p class="language language--en">Gallery</p>
           <p class="language language--ru invisible">Галерея</p>
           <p class="language language--arm invisible">Պատկերասրահ</p></a
         >
         <a
           href="#section_team"
-          class="btn header-link header-link--team margin-bot--md"
+          class="btn header-link header-link--team margin-bot--md mobile-nav-link"
           ><p class="language language--en">Team</p>
           <p class="language language--ru invisible">Команда</p>
           <p class="language language--arm invisible">Թիմ</p></a
         >
         <a
           href="#footer"
-          class="btn header-link header-link--contact margin-bot--md"
+          class="btn header-link header-link--contact margin-bot--md mobile-nav-link"
           ><p class="language language--en">Contact</p>
           <p class="language language--ru invisible">Контакт</p>
           <p class="language language--arm invisible">Կապ</p></a
-        >
+        >   
+        </nav>
         <!-- language select dropdown-->
         <div class="lang-select-dropdown margin-bot--md">
           <button class="lang-select-dropdown-btn flex--centered">
@@ -146,7 +148,7 @@
             >
           </div>
         </div>
-      </nav>
+      </div>
       <!-- header contact links -->
       <div class="header-contact">
         <div class="header-contact-container flex--centered-vertically">
@@ -159,7 +161,7 @@
             ></ion-icon>
             <ion-icon
               name="close-outline"
-              class="icon-mobile-nav btn--close-nav"
+              class="icon-mobile-nav btn--close-nav invisible"
             ></ion-icon>
           </button>
             <!-- map location -->

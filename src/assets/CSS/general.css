@@ -141,15 +141,13 @@ body {
   display: none;
   z-index: 9999;
   text-align: right;
+  width: 40px;
+  margin-left: auto;
 }
 
 .icon-mobile-nav {
   font-size: 4.2rem;
   color: var(--shade-10);
-}
-
-.icon-mobile-nav[name="close-outline"] {
-  display: none;
 }
 
 /* LINKS */

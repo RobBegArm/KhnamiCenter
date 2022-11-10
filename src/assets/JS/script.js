@@ -22,6 +22,32 @@ allLinks.forEach(link => {
   });
 });
 
+//Mobile Navbar
+
+const mobileNav = document.querySelector(".main-nav");
+const mobileNavBtn = document.querySelector(".btn-mobile-nav");
+const mobileNavBtnOpen = document.querySelector(".btn--open-nav");
+const mobileNavBtnClose = document.querySelector(".btn--close-nav");
+const mobileNavLinks = document.querySelectorAll(".mobile-nav-link");
+let navBarIsOpen = false;
+
+const toggleNavbar = function () {
+  mobileNavBtnOpen.classList.toggle("invisible");
+  mobileNavBtnClose.classList.toggle("invisible");
+  mobileNav.classList.toggle("main-nav--open");
+};
+
+const closeNavbar = function () {
+  mobileNavBtnOpen.classList.remove("invisible");
+  mobileNavBtnClose.classList.add("invisible");
+  mobileNav.classList.remove("main-nav--open");
+};
+
+mobileNavBtn.addEventListener("click", toggleNavbar);
+mobileNavLinks.forEach(el => {
+  el.addEventListener("click", closeNavbar);
+});
+
 //Gallery
 
 const galleryButtonLeft = document.querySelector(".gallery-btn-left");
@@ -107,11 +133,6 @@ const changeImg = function () {
   });
   galleryImgBox.classList.add("shade");
 };
-
-// Select All Gallery Images
-// const galleryImg1 = new Image();
-// galleryImg1.src = "./assets/content/images/gallery/Gallery-img-1.jpg";
-// galleryImgBox.style.background = galleryImg1;
 
 // Change the nav bullet according to bullet type (ellipse/ellipse-outline)
 const changeGalleryNavBullet = function (type) {
