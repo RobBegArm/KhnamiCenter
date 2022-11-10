@@ -69,6 +69,29 @@ galleryButtonRight.addEventListener("click", e => {
   changeGalleryImage("right");
 });
 
+// Gallery on Touch
+
+let userTouchX;
+
+const handleStart = function (e) {
+  e.preventDefault();
+  userTouchX = e.changedTouches[0].clientX;
+};
+const handleEnd = function (e) {
+  e.preventDefault();
+  let slideSize = e.changedTouches[0].clientX - userTouchX;
+  if (Math.abs(slideSize) > 50) {
+    changeGalleryImage(slideSize > 0 ? "left" : "right");
+  }
+};
+
+startup();
+function startup() {
+  galleryImgBox.addEventListener("touchstart", handleStart);
+  galleryImgBox.addEventListener("touchend", handleEnd);
+  log("Initialized.");
+}
+
 //Event Listeners for gallery bullets
 galleryNavElArray.forEach(el => {
   let idString = el.id.toString();

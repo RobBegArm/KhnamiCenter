@@ -12,16 +12,15 @@
 [DONE] Footer
 
 [DONE] Support language change
+[DONE] fix language-styles
+[DONE] fix language-styles Add media queries
 
 # Page Responsiveness
 
-- Add media queries
 - Set hamburger navbar to sticky with lightly blurred background
 - Implement image scroll
 
 # Languages
-
-- fix language-styles
 
 # META
 
