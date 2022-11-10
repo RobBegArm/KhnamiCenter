@@ -232,6 +232,11 @@
   padding: 9rem 3.2rem;
 }
 
+.gallery-img {
+  height: inherit;
+  width: inherit;
+}
+
 .gallery-btn {
   color: var(--main-color);
   position: absolute;
@@ -296,8 +301,6 @@
   height: 46rem;
   border-radius: 6px;
   z-index: 999;
-  background-size: contain !important;
-  background: url("/assets/content/images/gallery/Gallery-img-1.jpg");
 }
 
 .gallery-nav {
