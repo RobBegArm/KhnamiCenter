@@ -192,7 +192,7 @@
   }
 
   .btn-mobile-nav {
-    display: block;
+    display: block !important;
   }
 
   .section-hero {

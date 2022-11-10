@@ -16,7 +16,8 @@
 # Page Responsiveness
 
 - Add media queries
-- Add hamburger navbar
+- Set hamburger navbar to sticky with lightly blurred background
+- Implement image scroll
 
 # Languages
 
@@ -42,7 +43,6 @@
 
 - add about us before coops(?)
 - add license (?)
-- add touch gallery effects (?)
 
 ###### NOT-added features
 
