@@ -84,7 +84,9 @@
   background-color: var(--tint-60);
 }
 
-/* TODO set them to one line */
+.main-nav {
+  display: flex;
+}
 
 .lang-select {
   gap: 1.4rem;
@@ -252,7 +254,7 @@
 /* Gallery */
 
 .gallery--container {
-  padding: 9rem 3.2rem;
+  padding: 3.2rem 3.2rem 1.2rem 3.2rem;
   max-width: 90rem;
   margin: 0 auto;
 }
@@ -358,7 +360,7 @@
 
 .testimonial-box {
   max-width: 40rem;
-  max-height: 36rem;
+  max-height: 40rem;
   padding: 2rem 1rem;
   margin: 0 auto;
 }
