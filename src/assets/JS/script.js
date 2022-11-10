@@ -99,9 +99,14 @@ galleryImgBox.addEventListener(
 
 // Change the image according to active image number
 const changeImg = function () {
-  galleryImgBox.style.background = `url('/assets/content/images/gallery/Gallery-img-${currentImage}.jpg')`;
+  galleryImgBox.style.background = `url('./assets/content/images/gallery/Gallery-img-${currentImage}.jpg')`;
   galleryImgBox.classList.add("shade");
 };
+
+// Select All Gallery Images
+const galleryImg1 = new Image();
+galleryImg1.src = "./assets/content/images/gallery/Gallery-img-1.jpg";
+galleryImgBox.style.background = galleryImg1;
 
 // Change the nav bullet according to bullet type (ellipse/ellipse-outline)
 const changeGalleryNavBullet = function (type) {
@@ -109,3 +114,31 @@ const changeGalleryNavBullet = function (type) {
     currentImage - 1
   ].innerHTML = `<ion-icon name="${type}" class="gallery-nav-icon"></ion-icon>`;
 };
+
+// Change language dropdown menu visibility onclick
+
+const langSelectBtns = document.querySelectorAll(".lang-select-dropdown-btn");
+const langSelectDropdownContents = document.querySelectorAll(
+  ".lang-select-dropdown-content"
+);
+
+let dropdownContentVisible = false;
+
+//Toggles the visibility of contents
+langSelectBtns.forEach((el, i) => {
+  el.addEventListener("click", () => {
+    !dropdownContentVisible;
+    langSelectDropdownContents[i].classList.toggle("hidden-content");
+  });
+});
+
+// Hides Dropdown Content on click if it is visible
+const hideDropdownContents = function () {
+  if (!dropdownContentVisible) {
+    langSelectDropdownContents.forEach(el => {
+      el.classList.add("hidden-content");
+    });
+  }
+};
+
+document.addEventListener("click", hideDropdownContents);
