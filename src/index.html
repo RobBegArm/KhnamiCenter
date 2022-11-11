@@ -1197,7 +1197,7 @@
               ձեր հարազատի մասնագիտացված խնամքը
             </p>
           </div>
-          <form class="cta-form grid grid--3-cols" name="book-consultation">
+          <form class="cta-form grid grid--3-cols" name="book-consultation" onsubmit="sendEmail();reset(); return false;">
             <!-- patient name input -->
             <div class="form-element">
               <label for="patient_name">
@@ -1493,5 +1493,33 @@
     <!-- js -->
     <script defer src="./assets/JS/script.js"></script>
     <script defer src="./assets/JS/translate.js"></script>
+    <!-- Form Email Support -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+        log("Trying to send an e-mail...");
+        Email.send({
+        SecureToken : "30e250b0-8772-49bd-a264-ac2634a8301e",
+        To : "contact@khnami-center.com",
+        From : "contact@khnami-center.com",
+        Subject : "Form Submission",
+        Body : 
+        "Patient Name: " + 
+        document.getElementById("patient_name").value + 
+        "<br> Patient Age: " +  
+        document.getElementById("patient_age").value +
+        "<br> Patient Diagnosis: " +  
+        document.getElementById("patient_diagnosis").value +
+        "<br> Contact Name: " +  
+        document.getElementById("contact_name").value +
+        "<br> Contact Number: " +  
+        document.getElementById("contact_number").value +
+        "<br> Contact Email: " +  
+        document.getElementById("contact_number").value
+        }).then(
+          message => alert("Form Submitted Succesfully!")
+        );
+      }
+    </script>
   </body>
 </html>

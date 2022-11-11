@@ -210,13 +210,3 @@ allLangSelectButtons.forEach(el => {
   el.addEventListener("click", hideDropdownContents);
   dropdownContentVisible = false;
 });
-
-// Form
-
-const bookBtn = document.querySelector(".btn--form");
-
-const bookNow = function () {
-  log("Booked!");
-};
-
-bookBtn.addEventListener("click", bookNow);
