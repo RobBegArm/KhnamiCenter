@@ -260,7 +260,8 @@
   margin: 4rem auto 0;
 }
 
-.gallery-img {
+.gallery-img,
+.gallery-picture {
   height: inherit;
   width: inherit;
 }
