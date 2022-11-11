@@ -4,6 +4,7 @@
 - test on different devices
 - test with lighthouse
 - test with users
+- Fix The Images Formats
 
 # Deploy
 
