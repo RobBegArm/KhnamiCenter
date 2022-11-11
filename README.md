@@ -1,4 +1,4 @@
-# Khnami-Center.com
+# khnami-center.com
 
 An original website made for "Khnami" palliative care center. 
 - UI design
