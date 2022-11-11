@@ -396,6 +396,10 @@
     padding: 4.8rem 1rem 4.8rem 1rem;
   }
 
+  .header-contact-container {
+    margin-top: 25px;
+  }
+
   /* Russian */
 
   .testimonial-text.language--ru {
