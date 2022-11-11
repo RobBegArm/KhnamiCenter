@@ -65,7 +65,7 @@ const calculateScrollTop = function () {
 
 const galleryButtonLeft = document.querySelector(".gallery-btn-left");
 const galleryButtonRight = document.querySelector(".gallery-btn-right");
-const galleryImg = document.querySelectorAll(".gallery-img");
+const galleryImg = document.querySelectorAll(".gallery-picture");
 const galleryImgBox = document.querySelector(".gallery-img-box");
 const galleryNavElArray = document.querySelectorAll(".gallery-nav-bullet");
 
