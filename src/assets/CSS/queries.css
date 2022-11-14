@@ -71,6 +71,10 @@
 
   /* ARMENIAN */
 
+  .header--lang-select--armenian {
+    font-size: 2.8rem !important;
+  }
+
   .service p.language--arm {
     font-size: 1.8rem !important;
   }
@@ -190,6 +194,10 @@
     min-width: 50rem;
     margin: 0 auto;
   }
+
+  .footer--lang-select--armenian {
+    font-size: 2.2rem !important;
+  }
 }
 
 /* Below 1024 (Medium Tablets) */
@@ -197,6 +205,10 @@
   html {
     /*56.25% -> 1rem = 9px*/
     font-size: 56.25%;
+  }
+
+  .header--lang-select--armenian {
+    font-size: 2.2rem !important;
   }
 
   .main-nav {
@@ -252,6 +264,14 @@
     transition: transform 0.3s ease-in;
     font-size: 4rem;
     font-weight: 700;
+  }
+
+  .main-nav--open p.language--arm {
+    font-size: 3.4rem;
+  }
+
+  .main-nav--open p.language--ru {
+    font-size: 3.6rem !important;
   }
 
   .btn-mobile-nav {

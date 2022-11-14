@@ -22,8 +22,6 @@
 
 /* Armenian */
 
-/* hero */
-
 .heading-primary.language--arm {
   font-size: 6.4rem;
 }
@@ -42,4 +40,12 @@
 
 .service p.language--arm {
   font-size: 2rem;
+}
+
+.header--lang-select--armenian {
+  font-size: 3.4rem;
+}
+
+.footer--lang-select--armenian {
+  font-size: 2.4rem;
 }
